@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cadastro de Viaturas</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Cadastro de Viaturas</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_FROTA</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_viaturas</td></tr>
+      <tr><th>Provider: </th><td>Cadastro_de_Viaturas</td></tr>
+      <tr><th>Index: </th><td>PRIMARY</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_ID</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_VIATURA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_VIATURA))}{ServerValidation =(CheckNotEmpty(VIA_VIATURA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>VEICULO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_MARCA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_MARCA))}{ServerValidation =(CheckNotEmpty(VIA_MARCA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>MARCA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_MODELO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_MODELO))}{ServerValidation =(CheckNotEmpty(VIA_MODELO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>MODELO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_VERSAO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_VERSAO))}{ServerValidation =(CheckNotEmpty(VIA_VERSAO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>VERSAO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox6</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_PLACA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_PLACA))}{ServerValidation =(CheckNotEmpty(VIA_PLACA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>PLACA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox7</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_PREFIXO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_PREFIXO))}{ServerValidation =(CheckNotEmpty(VIA_PREFIXO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>PREFIXO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox9</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_RENAVAN</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_RENAVAN))}{ServerValidation =(CheckNotEmpty(VIA_RENAVAN))}</td></tr>	
+      <tr><th>Mensagem: </th><td>RENAVAN não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox10</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_CHASSI</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_CHASSI))}{ServerValidation =(CheckNotEmpty(VIA_CHASSI))}</td></tr>	
+      <tr><th>Mensagem: </th><td>CHASSI não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox11</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_KM</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_KM))}{ServerValidation =(CheckNotEmpty(VIA_KM))}</td></tr>	
+      <tr><th>Mensagem: </th><td>KM_TOTAL não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox12</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_COR</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_COR))}{ServerValidation =(CheckNotEmpty(VIA_COR))}</td></tr>	
+      <tr><th>Mensagem: </th><td>COR não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox14</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_ANO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_ANO))}{ServerValidation =(CheckNotEmpty(VIA_ANO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>ANO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox15</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_ANO_MODELO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_ANO_MODELO))}{ServerValidation =(CheckNotEmpty(VIA_ANO_MODELO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>ANO_MODELO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_COMBUSTIVEL</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_DATA_AQUISICAO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_DATA_AQUISICAO))}{ServerValidation =(CheckNotEmpty(VIA_DATA_AQUISICAO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>DATA_AQUISICAO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox16</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_VALOR</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_VALOR))}{ServerValidation =(CheckNotEmpty(VIA_VALOR))}</td></tr>	
+      <tr><th>Mensagem: </th><td>VALOR não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_TIPO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox17</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_N_PATRIMONIO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_N_PATRIMONIO))}{ServerValidation =(CheckNotEmpty(VIA_N_PATRIMONIO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>N_PATRIMONIO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIA_STATUS</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(VIA_STATUS))}{ServerValidation =(CheckNotEmpty(VIA_STATUS))}</td></tr>	
+      <tr><th>Mensagem: </th><td>STATUS não pode ser vazio!</td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>

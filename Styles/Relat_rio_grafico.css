@@ -1,0 +1,55 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	width: 500px;
+	height: 305px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	width: 500px;
+	height: 305px;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	margin: 0 0 0 0;
+	overflow: inherit;
+	position: relative;
+	top: 0px;
+}
+
+#ReportDataSource1
+{
+	position: absolute !important;
+	left: 282px;
+	top: 10px;
+	width: 135px;
+	height: 25px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#ReportGraph1
+{
+	position: absolute !important;
+	left: 0px;
+	top: 102px;
+	width: 500px;
+	height: 200px;
+	cursor: inherit;
+	opacity: 1;
+}
+

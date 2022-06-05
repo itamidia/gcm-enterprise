@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Motivos de Talões</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Motivos de Talões</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_MOTIVO_TALAO com grid</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_motivo_talao</td></tr>
+      <tr><th>Provider: </th><td>Motivos_de_Tal_es</td></tr>
+      <tr><th>Index: </th><td>PRIMARY</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ID_MOTIVO_TALAO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MOTIVO_DESCRICAO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MOTIVO_DESCRICAO))}{ServerValidation =(CheckNotEmpty(MOTIVO_DESCRICAO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>MOTIVO_DESCRICAO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>

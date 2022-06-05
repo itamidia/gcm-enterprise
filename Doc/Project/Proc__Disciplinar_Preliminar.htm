@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Proc. Disciplinar Preliminar</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Proc. Disciplinar Preliminar</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_PROC_DISC_PREL</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_proc_disc_prel</td></tr>
+      <tr><th>Provider: </th><td>Proc__Disciplinar_Preliminar</td></tr>
+      <tr><th>Index: </th><td>PK_TB_PROC_DISC_PREL</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>PROC_ID</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>PROC_RE_MATRICULA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(PROC_RE_MATRICULA))}{ServerValidation =(CheckNotEmpty(PROC_RE_MATRICULA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>RE_MATRICULA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>PROC_PARTE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(PROC_PARTE))}{ServerValidation =(CheckNotEmpty(PROC_PARTE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>PARTE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>PROC_MOTIVO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(PROC_MOTIVO))}{ServerValidation =(CheckNotEmpty(PROC_MOTIVO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>MOTIVO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox6</td></tr>
+      <tr><th>Campo Relacionado: </th><td>PROC_OS</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(PROC_OS))}{ServerValidation =(CheckNotEmpty(PROC_OS))}</td></tr>	
+      <tr><th>Mensagem: </th><td>OS não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>PROC_RECEBIMENTO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(PROC_RECEBIMENTO))}{ServerValidation =(CheckNotEmpty(PROC_RECEBIMENTO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>RECEBIMENTO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>PROC_PRAZO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(PROC_PRAZO))}{ServerValidation =(CheckNotEmpty(PROC_PRAZO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>PRAZO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox7</td></tr>
+      <tr><th>Campo Relacionado: </th><td>PROC_CONCLUSAO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(PROC_CONCLUSAO))}{ServerValidation =(CheckNotEmpty(PROC_CONCLUSAO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>CONCLUSAO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox8</td></tr>
+      <tr><th>Campo Relacionado: </th><td>PROC_OBSERVACAO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>

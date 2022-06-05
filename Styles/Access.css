@@ -1,0 +1,1053 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	height: 830px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	height: 830px;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	margin: 0 auto 0 auto;
+	min-height: 830px;
+	min-width: 900px;
+	overflow: inherit;
+	position: relative;
+	top: 0px;
+}
+
+#Div1
+{
+	background-color: #F2EEEE;
+	position: absolute !important;
+	left: 50%;
+	top: 0px;
+	bottom: 0px;
+	margin-left: -350px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Div3
+{
+	background-color: #006699;
+	position: absolute !important;
+	left: 0px;
+	top: -1px;
+	margin-right: 0px;
+	right: 0px;
+	height: 33px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#labModuleTitle
+{
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 6px;
+	top: 4px;
+	width: 544px;
+	height: 25px;
+	background-color: Transparent;
+	color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#AjaxPanel1
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	right: 0px;
+	background-color: Transparent;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TabControl5
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TabItem1
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TabPage1
+{
+	bottom: -1px;
+	cursor: inherit;
+	height: 713px;
+	left: 1px;
+	opacity: 1;
+	position: absolute;
+	right: 1px;
+	top: 29px;
+}
+
+#txtActualPassword
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 290px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtActualPassword_wrapper
+{
+	position: absolute !important;
+	left: 114px;
+	top: 41px;
+	width: 290px !important;
+}
+
+#txtNewPassword
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 290px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtNewPassword_wrapper
+{
+	position: absolute !important;
+	left: 114px;
+	top: 79px;
+	width: 290px !important;
+}
+
+#txtNewPasswordConfirm
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 290px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtNewPasswordConfirm_wrapper
+{
+	position: absolute !important;
+	left: 114px;
+	top: 118px;
+	width: 290px !important;
+}
+
+#Label1
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 27px;
+	top: 41px;
+	width: 88px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label2
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 27px;
+	top: 79px;
+	width: 87px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label3
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 27px;
+	top: 118px;
+	width: 87px;
+	height: 35px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#tbSavePw
+{
+	position: absolute !important;
+	left: 418px;
+	top: 116px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#tbSavePw .rtbInner > ul > li > a
+{
+	background-position: center;
+	height: 27px !important;
+}
+
+#tbSavePw .rtbWrap
+{
+	padding: 0px !important;
+}
+
+.butPWSave
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	background-image: url('../Images/Imagens/salvar.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #545454;
+	cursor: pointer;
+	height: 27px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+#TabItem2
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TabPage2
+{
+	bottom: -1px;
+	cursor: inherit;
+	height: 713px;
+	left: 1px;
+	opacity: 1;
+	position: absolute;
+	right: 1px;
+	top: 29px;
+}
+
+#ListBox3
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 47px;
+	top: 44px;
+	width: 247px;
+	height: 495px;
+	background-color: #C9C9C9;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TextBox6
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 177px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_TextBox6_wrapper
+{
+	position: absolute !important;
+	left: 47px;
+	top: 645px;
+	width: 177px !important;
+}
+
+#Label25
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 47px;
+	top: 16px;
+	width: 100px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label26
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 47px;
+	top: 606px;
+	width: 100px;
+	height: 30px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#CheckBox1
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 241px;
+	top: 645px;
+	width: 100px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+#ListBox4
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 321px;
+	top: 44px;
+	width: 300px;
+	height: 495px;
+	background-color: #C9C9C9;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label28
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 321px;
+	top: 16px;
+	width: 100px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#CheckBox2
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 48px;
+	top: 573px;
+	width: 101px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+#CheckBox3
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 153px;
+	top: 573px;
+	width: 101px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+#CheckBox4
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 375px;
+	top: 573px;
+	width: 101px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+#CheckBox5
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 264px;
+	top: 573px;
+	width: 101px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+#tbGroup
+{
+	position: absolute !important;
+	left: 536px;
+	top: 1px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#tbGroup .rtbInner > ul > li > a
+{
+	background-position: center;
+	height: 29px !important;
+}
+
+#tbGroup .rtbWrap
+{
+	padding: 0px !important;
+}
+
+.butGroupCancel2
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/cancelar.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 29px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+.butGroupSave2
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/salvar.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 29px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+.butGroupNew2
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/novo.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 29px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+.butGroupRemove2
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/excluir.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 29px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+#TabItem3
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TabPage3
+{
+	bottom: -1px;
+	cursor: inherit;
+	height: 713px;
+	left: 1px;
+	opacity: 1;
+	position: absolute;
+	right: 1px;
+	top: 29px;
+}
+
+#ListBox5
+{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 17px;
+	top: 43px;
+	width: 182px;
+	height: 135px;
+	background-color: #C9C9C9;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#ListBox6
+{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 230px;
+	top: 43px;
+	width: 182px;
+	height: 135px;
+	background-color: #C9C9C9;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TextBox7
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 182px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_TextBox7_wrapper
+{
+	position: absolute !important;
+	left: 17px;
+	top: 210px;
+	width: 182px !important;
+}
+
+#TextBox8
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 180px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_TextBox8_wrapper
+{
+	position: absolute !important;
+	left: 17px;
+	top: 265px;
+	width: 180px !important;
+}
+
+#TextBox9
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 182px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_TextBox9_wrapper
+{
+	position: absolute !important;
+	left: 230px;
+	top: 265px;
+	width: 182px !important;
+}
+
+#TextBox11
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 425px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_TextBox11_wrapper
+{
+	position: absolute !important;
+	left: 230px;
+	top: 210px;
+	width: 425px !important;
+}
+
+#Label30
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 17px;
+	top: 184px;
+	width: 182px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label31
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 17px;
+	top: 241px;
+	width: 182px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label35
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 17px;
+	top: 19px;
+	width: 100px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label36
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 230px;
+	top: 19px;
+	width: 100px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label37
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 230px;
+	top: 184px;
+	width: 182px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label38
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 230px;
+	top: 241px;
+	width: 182px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label39
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 17px;
+	top: 308px;
+	width: 132px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#tbUser
+{
+	position: absolute !important;
+	left: 536px;
+	top: 1px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#tbUser .rtbInner > ul > li > a
+{
+	background-position: center;
+	height: 31px !important;
+}
+
+#tbUser .rtbWrap
+{
+	padding: 0px !important;
+}
+
+.Button1
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/novo.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 31px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+.Button3
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/salvar.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 31px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+.Button4
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/cancelar.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 31px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+.Button2
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/excluir.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 31px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+#RadTextBox1
+{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 637px;
+	height: 129px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox1_wrapper
+{
+	position: absolute !important;
+	left: 17px;
+	top: 335px;
+	width: 637px !important;
+}
+
+#labError
+{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 10px;
+	top: 760px;
+	width: 670px;
+	height: 20px;
+	background-color: Transparent;
+	color: #FF0000;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+

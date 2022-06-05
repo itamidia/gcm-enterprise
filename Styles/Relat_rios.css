@@ -1,0 +1,309 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	height: 750px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	height: 750px;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	margin: 0 auto 0 auto;
+	min-width: 1235px;
+	overflow: inherit;
+	position: relative;
+	top: 0px;
+}
+
+.c_MainAjaxPanel
+{
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+#Div1
+{
+	background-color: #00A1D6;
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	margin-right: 0px;
+	right: 0px;
+	height: 65px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#labModuleTitle
+{
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 0px;
+	top: 50%;
+	margin-right: 0px;
+	margin-top: -20px;
+	right: 0px;
+	height: 41px;
+	background-color: Transparent;
+	color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Center;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#Div2
+{
+	position: absolute !important;
+	left: 0px;
+	top: 66px;
+	margin-right: 0px;
+	right: 0px;
+	height: 389px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #000000;
+	border-style: Dotted;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Button1
+{
+	background-color: #EDEDED;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 14px;
+	top: 11px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #FFFFFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 50px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 150px;
+}
+
+#Button2
+{
+	background-color: #EDEDED;
+	font-family: ARIAL;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 176px;
+	top: 11px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #FFFFFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 50px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 150px;
+}
+
+#Button3
+{
+	background-color: #EDEDED;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 336px;
+	top: 11px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #FFFFFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 50px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 150px;
+}
+
+#Button4
+{
+	background-color: #EDEDED;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 499px;
+	top: 11px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #FFFFFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 50px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 150px;
+}
+
+#Button5
+{
+	background-color: #E5E5E5;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 664px;
+	top: 11px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #FFFFFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 50px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 150px;
+}
+
+#Button6
+{
+	background-color: #E5E5E5;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 829px;
+	top: 11px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #FFFFFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 50px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 150px;
+}
+
+#Button7
+{
+	background-color: #E5E5E5;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 996px;
+	top: 11px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #FFFFFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 50px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 150px;
+}
+
+#Button8
+{
+	background-color: #E5E5E5;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 14px;
+	top: 85px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #FFFFFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 50px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 150px;
+}
+

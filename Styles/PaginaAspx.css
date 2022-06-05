@@ -1,0 +1,34 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	width: 1000px;
+	height: 1000px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	width: 1000px;
+	height: 1000px;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	margin: 0 auto 0 auto;
+	min-width: 1000px;
+	overflow: inherit;
+	position: relative;
+	top: 0px;
+}
+

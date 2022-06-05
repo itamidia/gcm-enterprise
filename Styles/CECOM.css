@@ -1,0 +1,196 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	font-size: 100%;
+	margin: 0px;
+	overflow: auto;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	background-position: center;
+	background-repeat: no-repeat;
+	bottom: 0px;
+	left: 0px;
+	margin: 0 auto 0 auto;
+	min-width: 1200px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.c_MainAjaxPanel
+{
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+#Div1
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	margin-right: 0px;
+	right: 0px;
+	height: 60px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: Transparent;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Label1
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 0px;
+	top: 11px;
+	margin-right: 0px;
+	right: 0px;
+	height: 38px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #043D4D;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Center;
+	word-wrap: normal;
+}
+
+#Button1
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 1153px;
+	top: 13px;
+	background-image: url('../Images/Imagens/refresh.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 30px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+#Button2
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 1119px;
+	top: 13px;
+	background-image: url('../Images/Imagens/print.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 30px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+#myTimer
+{
+	position: absolute !important;
+	left: 487px;
+	top: 12px;
+	width: 100px;
+	height: 25px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Div2
+{
+	position: absolute !important;
+	left: 0px;
+	bottom: 0px;
+	margin-right: 0px;
+	right: 0px;
+	height: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: Transparent;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#IFrame1
+{
+	background-color: Transparent;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	height: 100%;
+	opacity: 1;
+	position: absolute;
+	width: 100%;
+}
+
+#Taloes_Aberto
+{
+	background-color: Transparent;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	height: 100%;
+	opacity: 1;
+	position: absolute;
+	width: 100%;
+}
+
+#IFrame3
+{
+	background-color: Transparent;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	height: 100%;
+	opacity: 1;
+	position: absolute;
+	width: 100%;
+}
+

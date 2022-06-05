@@ -1,0 +1,850 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	width: 1035px;
+	height: 780px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	width: 1035px;
+	height: 780px;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	margin: 0 auto 0 auto;
+	min-width: 1035px;
+	overflow: inherit;
+	position: relative;
+	top: 0px;
+}
+
+.c_MainAjaxPanel
+{
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+#Div1
+{
+	background-color: #00A1D6;
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	margin-right: 0px;
+	right: 0px;
+	height: 35px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#labModuleTitle
+{
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 0px;
+	top: 50%;
+	margin-right: 0px;
+	margin-top: -12px;
+	right: 0px;
+	height: 25px;
+	background-color: Transparent;
+	color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Center;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#GridTalao
+{
+	position: absolute !important;
+	left: 0px;
+	top: 265px;
+	margin-right: 0px;
+	right: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.rgEditRow > .GridTalao_EditColumn
+{
+	width: 20px;
+}
+
+.GridTalao_EditColumn
+{
+	width: 0px;
+}
+
+#GridColumn1
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+
+#GridColumn3
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+
+#GComboBoxItemAtivo
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItemInteromp
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItemEncer
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItempATRU
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GridColumn6
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+
+#GridColumn2
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+
+#GridColumn4
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+
+#GridColumn7
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+
+#GridColumn8
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+
+#GridColumn9
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+
+#GridColumn10
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+
+#GridColumn14
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+
+#GridColumn13
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+
+#GridColumn23
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+
+#GComboBoxItem1
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem1
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#labError
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 0px;
+	top: 748px;
+	margin-right: 0px;
+	right: 0px;
+	height: 25px;
+	background-color: Transparent;
+	color: #FF0000;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#TextBoxBusca
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 638px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_TextBoxBusca_wrapper
+{
+	position: absolute !important;
+	left: 200px;
+	top: 95px;
+	width: 638px !important;
+}
+
+#TextDp1_wrapper
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 170px;
+	top: 139px;
+	width: 159px;
+	height: 20px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TextDp2_wrapper
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 419px;
+	top: 139px;
+	width: 159px;
+	height: 20px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Button1
+{
+	background-color: #043D4D;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 813px;
+	top: 41px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #FFFFFF;
+	cursor: pointer;
+	height: 25px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 100px;
+}
+
+#Button2
+{
+	background-color: #00A1D6;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 923px;
+	top: 41px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #FFFFFF;
+	cursor: pointer;
+	height: 25px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 100px;
+}
+
+#Label1
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 87px;
+	top: 95px;
+	width: 100px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Right;
+	word-wrap: normal;
+}
+
+#Label2
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 57px;
+	top: 139px;
+	width: 100px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Right;
+	word-wrap: normal;
+}
+
+#Label3
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 313px;
+	top: 139px;
+	width: 100px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Right;
+	word-wrap: normal;
+}
+
+#TextboxStatus
+{
+	position: absolute !important;
+	left: 70px;
+	top: 202px;
+	width: 159px;
+	width: 159px !important;
+	height: 22px;
+	height: 22px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItemaBERTO
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxINTERROMPIDO
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItemENCERRADO
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItemPATRULHAMENTO
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label4
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 70px;
+	top: 182px;
+	width: 100px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#TextboxViatura
+{
+	position: absolute !important;
+	left: 253px;
+	top: 202px;
+	width: 159px;
+	width: 159px !important;
+	height: 22px;
+	height: 22px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label5
+{
+	background-color: Transparent;
+	font-family: ARIAL;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 253px;
+	top: 182px;
+	width: 70px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#TextboxLogradouro
+{
+	position: absolute !important;
+	left: 435px;
+	top: 202px;
+	width: 159px;
+	width: 159px !important;
+	height: 22px;
+	height: 22px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TextboxBairro
+{
+	position: absolute !important;
+	left: 612px;
+	top: 202px;
+	width: 159px;
+	width: 159px !important;
+	height: 22px;
+	height: 22px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TextboxCidade
+{
+	position: absolute !important;
+	left: 797px;
+	top: 202px;
+	width: 159px;
+	width: 159px !important;
+	height: 22px;
+	height: 22px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label6
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 435px;
+	top: 182px;
+	width: 100px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label7
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 612px;
+	top: 182px;
+	width: 100px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label8
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 797px;
+	top: 182px;
+	width: 100px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#TextboxNatFim
+{
+	position: absolute !important;
+	left: 856px;
+	top: 139px;
+	width: 100px;
+	width: 100px !important;
+	height: 22px;
+	height: 22px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TextboxNatIni
+{
+	position: absolute !important;
+	left: 702px;
+	top: 139px;
+	width: 100px;
+	width: 100px !important;
+	height: 22px;
+	height: 22px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label9
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 590px;
+	top: 139px;
+	width: 100px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Right;
+	word-wrap: normal;
+}
+
+#Label10
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 810px;
+	top: 140px;
+	width: 44px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+

@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Configurações do Sistema</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Configurações do Sistema</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_CONFIG</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_config</td></tr>
+      <tr><th>Provider: </th><td>Config</td></tr>
+      <tr><th>Index: </th><td>PK_TB_CONFIG</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>PREFEITURA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(PREFEITURA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>PREFEITURA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>GMultiMedia1</td></tr>
+      <tr><th>Campo Relacionado: </th><td></td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtTipoLogradouro</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TIPO_LOGRADOURO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(TIPO_LOGRADOURO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>TIPO_LOGRADOURO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtLogradouro</td></tr>
+      <tr><th>Campo Relacionado: </th><td>LOGRADOURO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(LOGRADOURO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>LOGRADOURO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtBairro</td></tr>
+      <tr><th>Campo Relacionado: </th><td>BAIRRO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(BAIRRO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>BAIRRO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtCidade</td></tr>
+      <tr><th>Campo Relacionado: </th><td>CIDADE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(CIDADE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>CIDADE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtUF</td></tr>
+      <tr><th>Campo Relacionado: </th><td>UF</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(UF))}</td></tr>	
+      <tr><th>Mensagem: </th><td>UF não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtCEP</td></tr>
+      <tr><th>Campo Relacionado: </th><td>CEP</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(CEP))}</td></tr>	
+      <tr><th>Mensagem: </th><td>CEP não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox9</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TELEFONE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(TELEFONE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>TELEFONE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox10</td></tr>
+      <tr><th>Campo Relacionado: </th><td>FAX</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(FAX))}</td></tr>	
+      <tr><th>Mensagem: </th><td>FAX não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox11</td></tr>
+      <tr><th>Campo Relacionado: </th><td>CNPJ</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(CNPJ))}</td></tr>	
+      <tr><th>Mensagem: </th><td>CNPJ não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox12</td></tr>
+      <tr><th>Campo Relacionado: </th><td>EMAIL</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(EMAIL))}</td></tr>	
+      <tr><th>Mensagem: </th><td>EMAIL não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox13</td></tr>
+      <tr><th>Campo Relacionado: </th><td>SITE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(SITE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>SITE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>GMultiMedia2</td></tr>
+      <tr><th>Campo Relacionado: </th><td></td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox14</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GUARDA_MUNICIPAL</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GUARDA_MUNICIPAL))}</td></tr>	
+      <tr><th>Mensagem: </th><td>GUARDA_MUNICIPAL não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtTipoLogradouro2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCMP_TIPO_LOGRADOURO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCMP_TIPO_LOGRADOURO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>GCMP_TIPO_LOGRADOURO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtLogradouro2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCMP_LOGRADOURO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCMP_LOGRADOURO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>GCMP_LOGRADOURO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtBairro2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCMP_BAIRRO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCMP_BAIRRO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>GCMP_BAIRRO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtCidade2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCMP_CIDADE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCMP_CIDADE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>GCMP_CIDADE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtUF2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCMP_UF</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCMP_UF))}</td></tr>	
+      <tr><th>Mensagem: </th><td>GCMP_UF não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtCEP2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCMP_CEP</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCMP_CEP))}</td></tr>	
+      <tr><th>Mensagem: </th><td>GCMP_CEP não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox21</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCMP_TELEFONE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCMP_TELEFONE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>GCMP_TELEFONE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox22</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCMP_FAX</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCMP_FAX))}</td></tr>	
+      <tr><th>Mensagem: </th><td>GCMP_FAX não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox23</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCMP_CNPJ</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCMP_CNPJ))}</td></tr>	
+      <tr><th>Mensagem: </th><td>GCMP_CNPJ não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox24</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCMP_EMAIL</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCMP_EMAIL))}</td></tr>	
+      <tr><th>Mensagem: </th><td>GCMP_EMAIL não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox25</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCMP_SITE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCMP_SITE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>GCMP_SITE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>

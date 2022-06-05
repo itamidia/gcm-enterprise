@@ -1,0 +1,1515 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	width: 768px;
+	height: 518px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	width: 768px;
+	height: 518px;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	margin: 0 auto 0 auto;
+	min-width: 768px;
+	overflow: inherit;
+	position: relative;
+	top: 0px;
+}
+
+.c_MainAjaxPanel
+{
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+#Div1
+{
+	background-color: #0A64A0;
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 220px;
+	height: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#labModuleTitle
+{
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 30px;
+	top: 50%;
+	margin-top: -12px;
+	width: 181px;
+	height: 25px;
+	background-color: Transparent;
+	color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#Div2
+{
+	background-color: #EDEDED;
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	margin-left: 220px;
+	margin-right: 0px;
+	right: 0px;
+	height: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#gToolbar
+{
+	position: absolute !important;
+	left: 215px;
+	top: 1px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#gToolbar .rtbInner > ul > li > a
+{
+	background-position: center;
+	height: 29px !important;
+}
+
+#gToolbar .rtbWrap
+{
+	padding: 0px !important;
+}
+
+.Button1
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/novo.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 29px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+.Button2
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/salvar.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 29px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+.Button3
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/cancelar.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 29px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+.Button4
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/excluir.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 29px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+.Button6
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/anterior.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 29px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+.Button7
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/proximo.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 29px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+.Button9
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/filtro.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 29px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+.Button10
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/Imagens/editar.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #000000;
+	cursor: pointer;
+	height: 29px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 30px;
+}
+
+#RadTextBox1
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 700;
+	background-color: #F5F6F6;
+	width: 111px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox1_wrapper
+{
+	position: absolute !important;
+	left: 30px;
+	top: 80px;
+	width: 111px !important;
+}
+
+#Label5
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 30px;
+	top: 55px;
+	width: 106px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox2
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 146px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox2_wrapper
+{
+	position: absolute !important;
+	left: 156px;
+	top: 80px;
+	width: 146px !important;
+}
+
+#Label6
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 156px;
+	top: 55px;
+	width: 146px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox3
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 216px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox3_wrapper
+{
+	position: absolute !important;
+	left: 322px;
+	top: 80px;
+	width: 216px !important;
+}
+
+#Label7
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 322px;
+	top: 55px;
+	width: 216px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox4
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 196px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox4_wrapper
+{
+	position: absolute !important;
+	left: 30px;
+	top: 133px;
+	width: 196px !important;
+}
+
+#Label8
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 30px;
+	top: 108px;
+	width: 196px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox5
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 236px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox5_wrapper
+{
+	position: absolute !important;
+	left: 246px;
+	top: 133px;
+	width: 236px !important;
+}
+
+#Label9
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 246px;
+	top: 108px;
+	width: 236px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox6
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 236px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox6_wrapper
+{
+	position: absolute !important;
+	left: 502px;
+	top: 133px;
+	width: 236px !important;
+}
+
+#Label10
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 502px;
+	top: 108px;
+	width: 236px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label11
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 30px;
+	top: 161px;
+	width: 196px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox7
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 236px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox7_wrapper
+{
+	position: absolute !important;
+	left: 246px;
+	top: 186px;
+	width: 236px !important;
+}
+
+#Label12
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 246px;
+	top: 161px;
+	width: 236px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox8
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 236px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox8_wrapper
+{
+	position: absolute !important;
+	left: 502px;
+	top: 186px;
+	width: 236px !important;
+}
+
+#Label13
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 502px;
+	top: 161px;
+	width: 236px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox9
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 236px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox9_wrapper
+{
+	position: absolute !important;
+	left: 246px;
+	top: 239px;
+	width: 236px !important;
+}
+
+#Label14
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 246px;
+	top: 214px;
+	width: 236px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox10
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 236px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox10_wrapper
+{
+	position: absolute !important;
+	left: 502px;
+	top: 239px;
+	width: 236px !important;
+}
+
+#Label15
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 502px;
+	top: 214px;
+	width: 236px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#ComboBox2
+{
+	position: absolute !important;
+	left: 30px;
+	top: 240px;
+	width: 196px;
+	width: 196px !important;
+	height: 22px;
+	height: 22px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem10
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem11
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem12
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem13
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem14
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem15
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label16
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 30px;
+	top: 215px;
+	width: 196px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox11
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 236px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox11_wrapper
+{
+	position: absolute !important;
+	left: 246px;
+	top: 292px;
+	width: 236px !important;
+}
+
+#Label17
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 246px;
+	top: 267px;
+	width: 236px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox12
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 236px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox12_wrapper
+{
+	position: absolute !important;
+	left: 502px;
+	top: 292px;
+	width: 236px !important;
+}
+
+#Label18
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 502px;
+	top: 267px;
+	width: 236px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox13
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 196px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox13_wrapper
+{
+	position: absolute !important;
+	left: 30px;
+	top: 294px;
+	width: 196px !important;
+}
+
+#Label19
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 30px;
+	top: 269px;
+	width: 196px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox14
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 236px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox14_wrapper
+{
+	position: absolute !important;
+	left: 246px;
+	top: 345px;
+	width: 236px !important;
+}
+
+#Label20
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 246px;
+	top: 320px;
+	width: 236px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#DatePicker1_wrapper
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 502px;
+	top: 345px;
+	width: 236px;
+	height: 20px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label21
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 502px;
+	top: 320px;
+	width: 236px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#RadTextBox15
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 196px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_RadTextBox15_wrapper
+{
+	position: absolute !important;
+	left: 30px;
+	top: 347px;
+	width: 196px !important;
+}
+
+#Label22
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 30px;
+	top: 322px;
+	width: 196px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#labError
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 0px;
+	top: 450px;
+	margin-right: 0px;
+	right: 0px;
+	height: 25px;
+	background-color: Transparent;
+	color: #FF0000;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#Div3
+{
+	background-color: #EDEDED;
+	position: absolute !important;
+	left: 0px;
+	top: 478px;
+	margin-right: 0px;
+	right: 0px;
+	height: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Link6
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 30px;
+	top: 11px;
+	width: 50px;
+	height: 20px;
+	background-color: Transparent;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: pointer;
+	opacity: 1;
+	text-align: Left;
+}
+
+#Label23
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 82px;
+	top: 13px;
+	width: 11px;
+	height: 17px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Link7
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 96px;
+	top: 11px;
+	width: 50px;
+	height: 20px;
+	background-color: Transparent;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: pointer;
+	opacity: 1;
+	text-align: Left;
+}
+
+#Label24
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 153px;
+	top: 13px;
+	width: 34px;
+	height: 17px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label25
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 189px;
+	top: 13px;
+	width: 26px;
+	height: 17px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label26
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 221px;
+	top: 13px;
+	width: 11px;
+	height: 17px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label27
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 230px;
+	top: 13px;
+	width: 29px;
+	height: 17px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Link8
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 265px;
+	top: 11px;
+	width: 50px;
+	height: 20px;
+	background-color: Transparent;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: pointer;
+	opacity: 1;
+	text-align: Left;
+}
+
+#Label28
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 317px;
+	top: 13px;
+	width: 11px;
+	height: 17px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Link9
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 330px;
+	top: 11px;
+	width: 50px;
+	height: 20px;
+	background-color: Transparent;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: pointer;
+	opacity: 1;
+	text-align: Left;
+}
+
+#ComboBox3
+{
+	position: absolute !important;
+	left: 552px;
+	top: 80px;
+	width: 185px;
+	width: 185px !important;
+	height: 22px;
+	height: 22px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem16
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem17
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem18
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem19
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem20
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label29
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 552px;
+	top: 55px;
+	width: 185px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#ComboBox4
+{
+	position: absolute !important;
+	left: 30px;
+	top: 186px;
+	width: 196px;
+	width: 196px !important;
+	height: 22px;
+	height: 22px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem21
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem22
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem23
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem24
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem25
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem26
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem27
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem28
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#GComboBoxItem29
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+

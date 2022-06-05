@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Liberar Viatura</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Liberar Viatura</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela tb_liberar_manutencao</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_liberar_manutencao</td></tr>
+      <tr><th>Provider: </th><td>Liberar_Viatura</td></tr>
+      <tr><th>Index: </th><td>PRIMARY</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ID</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>USUARIO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>VIATURA</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>STATUS</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+</div>
+
+	<div class="properties">
+		<h2>Tabela Auxiliar:<span>AUX_tb_liberar_manutencao_tb_viaturas</span></h2>
+		<table>
+			<tr><th>Banco</th><td>gcm</td></tr>
+			<tr><th>Tabela Relacionada</th><td>tb_viaturas</td></tr>
+			<tr><th>Forçar Relacionamento</th><td>True</td></tr>   
+			<tr><th>Indice</th><td>PK_TB_VIATURAS</td></tr>
+			<tr><th>Menssagem</th><td></td></tr>
+		</table>
+		<h3>Campos Relacionados</h3>
+		<table>
+		  <tr><th>Tabela base: </th><td>VIA_ID</td></tr>	
+		  <tr><th>Tabela auxiliar: </th><td>=(VIATURA)</td></tr>
+		</table>
+		</br>
+		
+		<h3>Processos</h3>
+		<table>
+		  <tr><th>Título: </th><td>LIBERA_VIATURA</td></tr>	
+		  <tr><th>Condição Direta: </th><td>=(STATUS == 1)</td></tr>	
+		  <tr><th>Fórmula Direta: </th><td>2</td></tr>
+		  <tr><th>Executa Processo antes de Salvar: </th><td>False</td></tr>	
+		  <tr><th>Condição Inversa: </th><td></td></tr>	
+		  <tr><th>Formula Inversa: </th><td></td></tr>
+		  <tr><th>Campo Alvo: </th><td>VIA_STATUS</td></tr>
+		</table>
+		</br>
+		<table>
+		  <tr><th>Título: </th><td>DEIXAR_MANUTENCAO</td></tr>	
+		  <tr><th>Condição Direta: </th><td>=(STATUS == 2)</td></tr>	
+		  <tr><th>Fórmula Direta: </th><td>4</td></tr>
+		  <tr><th>Executa Processo antes de Salvar: </th><td>False</td></tr>	
+		  <tr><th>Condição Inversa: </th><td></td></tr>	
+		  <tr><th>Formula Inversa: </th><td></td></tr>
+		  <tr><th>Campo Alvo: </th><td>VIA_STATUS</td></tr>
+		</table>
+		</br>
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Talões Encerrar</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Talões Encerrar</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_TALOES</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_taloes</td></tr>
+      <tr><th>Provider: </th><td>Taloes_Encerrar</td></tr>
+      <tr><th>Index: </th><td>PK_TB_TALOES</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_DATA</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_NUMERO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_STATUS</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(TAL_STATUS))}{ServerValidation =(CheckNotEmpty(TAL_STATUS))}</td></tr>	
+      <tr><th>Mensagem: </th><td>STATUS não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_OBSERVACAO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_DATA_FIM</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_KM_INICIO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox6</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_KM_FIM</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_NAT_INICIO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_LOCAL_NATUREZA</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox7</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_ENCARREGADO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox8</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_MOTORISTA</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox9</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_TER_HOMEM</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox10</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_QUA_HOMEM</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox11</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_QUI_HOMEM</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox8</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_RADIO_OPERADOR</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox12</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_CIDADE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox9</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ID_TALAO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox13</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_BAIRRO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox14</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_FLAGRANTE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox10</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_NUMERO_LOGRADOURO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox15</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_VIATURA</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox16</td></tr>
+      <tr><th>Campo Relacionado: </th><td>TAL_MOTIVO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+</div>
+
+	<div class="properties">
+		<h2>Tabela Auxiliar:<span>AUX_TB_TALOES_ALTERAR_TB_VIATURAS</span></h2>
+		<table>
+			<tr><th>Banco</th><td>gcm</td></tr>
+			<tr><th>Tabela Relacionada</th><td>tb_viaturas</td></tr>
+			<tr><th>Forçar Relacionamento</th><td>True</td></tr>   
+			<tr><th>Indice</th><td>PK_TB_VIATURAS</td></tr>
+			<tr><th>Menssagem</th><td></td></tr>
+		</table>
+		<h3>Campos Relacionados</h3>
+		<table>
+		  <tr><th>Tabela base: </th><td>VIA_ID</td></tr>	
+		  <tr><th>Tabela auxiliar: </th><td>=(TAL_VIATURA)</td></tr>
+		</table>
+		</br>
+		
+		<h3>Processos</h3>
+		<table>
+		  <tr><th>Título: </th><td>Troca_para_Disponivel</td></tr>	
+		  <tr><th>Condição Direta: </th><td>=(TAL_STATUS == 3)</td></tr>	
+		  <tr><th>Fórmula Direta: </th><td>2</td></tr>
+		  <tr><th>Executa Processo antes de Salvar: </th><td>False</td></tr>	
+		  <tr><th>Condição Inversa: </th><td></td></tr>	
+		  <tr><th>Formula Inversa: </th><td></td></tr>
+		  <tr><th>Campo Alvo: </th><td>VIA_STATUS</td></tr>
+		</table>
+		</br>
+		<table>
+		  <tr><th>Título: </th><td>Troca_para_emuso</td></tr>	
+		  <tr><th>Condição Direta: </th><td>=(TAL_STATUS != 3)</td></tr>	
+		  <tr><th>Fórmula Direta: </th><td>3</td></tr>
+		  <tr><th>Executa Processo antes de Salvar: </th><td>False</td></tr>	
+		  <tr><th>Condição Inversa: </th><td></td></tr>	
+		  <tr><th>Formula Inversa: </th><td></td></tr>
+		  <tr><th>Campo Alvo: </th><td>VIA_STATUS</td></tr>
+		</table>
+		</br>
+		<table>
+		  <tr><th>Título: </th><td>Talao_Interrompido</td></tr>	
+		  <tr><th>Condição Direta: </th><td>=(TAL_STATUS == 2)</td></tr>	
+		  <tr><th>Fórmula Direta: </th><td>2</td></tr>
+		  <tr><th>Executa Processo antes de Salvar: </th><td>False</td></tr>	
+		  <tr><th>Condição Inversa: </th><td></td></tr>	
+		  <tr><th>Formula Inversa: </th><td></td></tr>
+		  <tr><th>Campo Alvo: </th><td>VIA_STATUS</td></tr>
+		</table>
+		</br>
+		<table>
+		  <tr><th>Título: </th><td>Troca_para_Patrulhamento</td></tr>	
+		  <tr><th>Condição Direta: </th><td>=(TAL_STATUS == 2)</td></tr>	
+		  <tr><th>Fórmula Direta: </th><td>2</td></tr>
+		  <tr><th>Executa Processo antes de Salvar: </th><td>False</td></tr>	
+		  <tr><th>Condição Inversa: </th><td></td></tr>	
+		  <tr><th>Formula Inversa: </th><td></td></tr>
+		  <tr><th>Campo Alvo: </th><td>VIA_STATUS</td></tr>
+		</table>
+		</br>
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ELOGIOS</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>ELOGIOS</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_ELOGIOS</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_elogios</td></tr>
+      <tr><th>Provider: </th><td>TB_ELOGIOS</td></tr>
+      <tr><th>Index: </th><td>PRIMARY</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ID_ELOGIO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ELO_PORTARIA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ELO_PORTARIA))}{ServerValidation =(CheckNotEmpty(ELO_PORTARIA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>PORTARIA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ELO_DATA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ELO_DATA))}{ServerValidation =(CheckNotEmpty(ELO_DATA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>DATA EXP não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ELO_NATUREZA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ELO_NATUREZA))}{ServerValidation =(CheckNotEmpty(ELO_NATUREZA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>NATUREZA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ELO_DATA_FATO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ELO_DATA_FATO))}{ServerValidation =(CheckNotEmpty(ELO_DATA_FATO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>DATA DO FATO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ELO_RESUMO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ELO_RESUMO))}{ServerValidation =(CheckNotEmpty(ELO_RESUMO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>RESUMO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>

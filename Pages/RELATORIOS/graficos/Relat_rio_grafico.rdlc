@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+	<rd:DrawGrid>true</rd:DrawGrid>
+	<rd:GridSpacing>0.25cm</rd:GridSpacing>
+	<rd:SnapToGrid>true</rd:SnapToGrid>
+	<rd:ReportID>2c1e49d5-fb43-49f5-a448-a3e72b65b923</rd:ReportID>
+	<LeftMargin>0cm</LeftMargin>
+	<TopMargin>0cm</TopMargin>
+	<RightMargin>0cm</RightMargin>
+	<BottomMargin>0cm</BottomMargin>
+  <PageWidth>21cm</PageWidth>
+	<PageHeight>29.7cm</PageHeight>
+	<InteractiveWidth>21cm</InteractiveWidth>
+	<InteractiveHeight>29.7cm</InteractiveHeight>
+	<ReportParameters>
+		<ReportParameter Name="ParamDefaultRP">
+			 <DataType>String</DataType>
+			<AllowBlank>true</AllowBlank>
+			<Nullable>true</Nullable>
+			 <Prompt>ParamDefaultRP</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="ProjectPath">
+			 <DataType>String</DataType>
+			<Nullable>true</Nullable>
+			 <Prompt>ProjectPath</Prompt>
+		</ReportParameter>
+	</ReportParameters>
+	<Width>13.51cm</Width>
+	<Body>
+		<ColumnSpacing>1pt</ColumnSpacing>
+		<Height>10.81cm</Height>
+		<ReportItems>
+			<Chart Name="ReportGraph1">
+				<Style>
+					<FontFamily>Times New Roman</FontFamily>
+					<FontSize>9.02pt</FontSize>
+					<FontWeight>400</FontWeight>
+					<FontStyle>Normal</FontStyle>
+					<TextDecoration>None</TextDecoration>
+					<BorderColor>
+						<Default>#000000</Default>
+					</BorderColor>
+					<BackgroundColor>#FFFFFF</BackgroundColor>
+					<PaddingLeft>1pt</PaddingLeft>
+					<PaddingTop>1pt</PaddingTop>
+					<PaddingRight>1pt</PaddingRight>
+					<PaddingBottom>1pt</PaddingBottom>
+				</Style>
+				<Title>
+					<Style>
+						<FontFamily>Times New Roman</FontFamily>
+						<FontSize>9.02pt</FontSize>
+						<FontWeight>400</FontWeight>
+						<FontStyle>Normal</FontStyle>
+						<TextDecoration>None</TextDecoration>
+					</Style>
+				</Title>
+				<CategoryAxis>
+					<Axis>
+						<Title>
+							<Style>
+								<FontFamily>Times New Roman</FontFamily>
+								<FontSize>9.02pt</FontSize>
+								<FontWeight>400</FontWeight>
+								<FontStyle>Normal</FontStyle>
+								<TextDecoration>None</TextDecoration>
+							</Style>
+						</Title>
+						<Reverse>false</Reverse>
+						<MajorGridLines>
+							<Style>
+								<BorderStyle>
+									<Default>Solid</Default>
+								</BorderStyle>
+							</Style>
+						</MajorGridLines>
+						<MinorGridLines>
+							<Style>
+								<BorderStyle>
+									<Default>Solid</Default>
+								</BorderStyle>
+							</Style>
+						</MinorGridLines>
+						<MajorTickMarks>Outside</MajorTickMarks>
+						<Min>0</Min>
+						<Visible>true</Visible>
+					</Axis>
+				</CategoryAxis>
+				<ValueAxis>
+					<Axis>
+						<Title>
+							<Style>
+								<FontFamily>Times New Roman</FontFamily>
+								<FontSize>9.02pt</FontSize>
+								<FontWeight>400</FontWeight>
+								<FontStyle>Normal</FontStyle>
+								<TextDecoration>None</TextDecoration>
+							</Style>
+						</Title>
+						<Reverse>false</Reverse>
+						<MajorGridLines>
+							<Style>
+								<BorderStyle>
+									<Default>Solid</Default>
+								</BorderStyle>
+							</Style>
+							<ShowGridLines>true</ShowGridLines>
+						</MajorGridLines>
+						<MinorGridLines>
+							<Style>
+								<BorderStyle>
+									<Default>Solid</Default>
+								</BorderStyle>
+							</Style>
+						</MinorGridLines>
+						<MajorTickMarks>Outside</MajorTickMarks>
+						<Min>0</Min>
+						<Visible>true</Visible>
+						<Margin>true</Margin>
+						<Scalar>true</Scalar>
+					</Axis>
+				</ValueAxis>
+				<DataSetName>ReportDataSource1</DataSetName>
+				<Type>Column</Type>
+				<Legend>
+					<Style>
+						<TextAlign>Left</TextAlign>
+						<VerticalAlign>Middle</VerticalAlign>
+						<Color>#000000</Color>
+						<BorderStyle>
+							<Default>Solid</Default>
+						</BorderStyle>
+					</Style>
+					<Visible>true</Visible>
+					<Position>RightCenter</Position>
+				</Legend>
+				<ThreeDProperties>
+					<Enabled>true</Enabled>
+					<ProjectionMode>Orthographic</ProjectionMode>
+					<Shading>Real</Shading>
+					<Rotation>30</Rotation>
+					<Inclination>30</Inclination>
+					<WallThickness>50</WallThickness>
+					<Perspective>0</Perspective>
+				</ThreeDProperties>
+				<Palette>Pastel</Palette>
+				<CategoryGroupings>
+					<CategoryGrouping>
+						<DynamicCategories>
+							<Grouping Name="CategoryGroup_ReportGraph1">
+								<GroupExpressions>
+									<GroupExpression>=Fields!TAL_DATA.Value</GroupExpression>
+								</GroupExpressions>
+								<Parent>=Fields!TAL_DATA.Value</Parent>
+							</Grouping>
+							<Label>=Fields!TAL_DATA.Value</Label>
+						</DynamicCategories>
+					</CategoryGrouping>
+				</CategoryGroupings>
+				<SeriesGroupings>
+					<SeriesGrouping>
+						<DynamicSeries>
+							<Grouping Name="SeriesGroup_ReportGraph1">
+								<GroupExpressions>
+									<GroupExpression>=Fields!BAIRRO.Value</GroupExpression>
+								</GroupExpressions>
+								<Parent>=Fields!BAIRRO.Value</Parent>
+							</Grouping>
+							<Label>=Fields!BAIRRO.Value</Label>
+						</DynamicSeries>
+					</SeriesGrouping>
+				</SeriesGroupings>
+				<PlotArea>
+					<Style>
+						<BackgroundColor>LightGrey</BackgroundColor>
+						<BorderStyle>
+							<Default>Solid</Default>
+						</BorderStyle>
+					</Style>
+				</PlotArea>
+				<PointWidth>0</PointWidth>
+				<Subtype>Plain</Subtype>
+				<Top>1.41cm</Top>
+				<Left>0cm</Left>
+				<Width>13.51cm</Width>
+				<Height>5.41cm</Height>
+				<Visibility>
+					<Hidden>false</Hidden>
+				</Visibility>
+			</Chart>
+		</ReportItems>
+	</Body>
+	<DataSources>
+		<DataSource Name="ReportDataSource1_taloes_relatorio">
+			<rd:DataSourceID>67c177d2-714b-43a2-a016-8792ab5ff1b6</rd:DataSourceID>
+			<ConnectionProperties>
+				<DataProvider>MYSQL</DataProvider>
+				<ConnectString>ÞServer=.\gvinci;Database=Banco;User ID=sa;Password=gvinci;Trusted_Connection=false</ConnectString>
+			</ConnectionProperties>
+		</DataSource>
+	</DataSources>
+	<DataSets>
+		<DataSet Name="ReportDataSource1">
+			<Fields>
+				<Field Name="ID_TALAO">
+					<DataField>ID_TALAO</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="TAL_RADIO_OPERADOR">
+					<DataField>TAL_RADIO_OPERADOR</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="TAL_STATUS">
+					<DataField>TAL_STATUS</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="TAL_DATA">
+					<DataField>TAL_DATA</DataField>
+					<rd:TypeName>System.DateTime</rd:TypeName>
+				</Field>
+				<Field Name="TAL_DATA_FIM">
+					<DataField>TAL_DATA_FIM</DataField>
+					<rd:TypeName>System.DateTime</rd:TypeName>
+				</Field>
+				<Field Name="TAL_NUMERO">
+					<DataField>TAL_NUMERO</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="TAL_VIATURA">
+					<DataField>TAL_VIATURA</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="TAL_KM_INICIO">
+					<DataField>TAL_KM_INICIO</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="TAL_KM_FIM">
+					<DataField>TAL_KM_FIM</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="TAL_NAT_INICIO">
+					<DataField>TAL_NAT_INICIO</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="TAL_NAT_FIM">
+					<DataField>TAL_NAT_FIM</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="TAL_CIDADE">
+					<DataField>TAL_CIDADE</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="TAL_BAIRRO">
+					<DataField>TAL_BAIRRO</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="TAL_LOCAL_NATUREZA">
+					<DataField>TAL_LOCAL_NATUREZA</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="TAL_ENCARREGADO">
+					<DataField>TAL_ENCARREGADO</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="TAL_MOTORISTA">
+					<DataField>TAL_MOTORISTA</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="TAL_TER_HOMEM">
+					<DataField>TAL_TER_HOMEM</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="TAL_QUA_HOMEM">
+					<DataField>TAL_QUA_HOMEM</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="TAL_QUI_HOMEM">
+					<DataField>TAL_QUI_HOMEM</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="TAL_OBSERVACAO">
+					<DataField>TAL_OBSERVACAO</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="DATA_TALAO">
+					<DataField>DATA_TALAO</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="HORA_TALAO">
+					<DataField>HORA_TALAO</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="DATA_FIM">
+					<DataField>DATA_FIM</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="HORA_FIM">
+					<DataField>HORA_FIM</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="VIATURA">
+					<DataField>VIATURA</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="RE_ENCARREGADO">
+					<DataField>RE_ENCARREGADO</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="RE_MOTORISTA">
+					<DataField>RE_MOTORISTA</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="RE_AUXILIAR">
+					<DataField>RE_AUXILIAR</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="BAIRRO">
+					<DataField>BAIRRO</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="CIDADE">
+					<DataField>CIDADE</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="TAL_FLAGRANTE">
+					<DataField>TAL_FLAGRANTE</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+			</Fields>
+			<Query>
+				<DataSourceName>ReportDataSource1_taloes_relatorio</DataSourceName>
+				<CommandText>
+					Select [ID_TALAO],[TAL_RADIO_OPERADOR],[TAL_STATUS],[TAL_DATA],[TAL_DATA_FIM],[TAL_NUMERO],[TAL_VIATURA],[TAL_KM_INICIO],[TAL_KM_FIM],[TAL_NAT_INICIO],[TAL_NAT_FIM],[TAL_CIDADE],[TAL_BAIRRO],[TAL_LOCAL_NATUREZA],[TAL_ENCARREGADO],[TAL_MOTORISTA],[TAL_TER_HOMEM],[TAL_QUA_HOMEM],[TAL_QUI_HOMEM],[TAL_OBSERVACAO],[DATA_TALAO],[HORA_TALAO],[DATA_FIM],[HORA_FIM],[VIATURA],[RE_ENCARREGADO],[RE_MOTORISTA],[RE_AUXILIAR],[BAIRRO],[CIDADE],[TAL_FLAGRANTE] from taloes_relatorio
+				</CommandText>
+			</Query>
+			<rd:DataSetInfo>
+				<rd:DataSetName>ReportDataSource1</rd:DataSetName>
+				<rd:TableName>taloes_relatorio</rd:TableName>
+			</rd:DataSetInfo>
+		</DataSet>
+	</DataSets>
+  <Language>pt-BR</Language>
+</Report>

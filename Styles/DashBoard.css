@@ -1,0 +1,194 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	background-position: center;
+	background-repeat: no-repeat;
+	bottom: 0px;
+	left: 0px;
+	margin: 0 0 0 0;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.c_MainAjaxPanel
+{
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+#Graph1Content
+{
+	position: absolute !important;
+	left: 25px;
+	top: 24px;
+	width: 627px;
+	height: 248px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Graph2Content
+{
+	position: absolute !important;
+	left: 25px;
+	top: 306px;
+	width: 836px;
+	height: 347px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Div1
+{
+	background-color: #1F790C;
+	position: absolute !important;
+	left: 670px;
+	top: 24px;
+	width: 205px;
+	height: 120px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-color: Transparent;
+	border-style: Solid;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Label1
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 13px;
+	top: 9px;
+	width: 176px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Center;
+	word-wrap: normal;
+}
+
+#Label3
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 45px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 20px;
+	top: 38px;
+	width: 167px;
+	height: 59px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Center;
+	word-wrap: normal;
+}
+
+#Div2
+{
+	background-color: #1BC1E3;
+	position: absolute !important;
+	left: 670px;
+	top: 149px;
+	width: 205px;
+	height: 120px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-color: Transparent;
+	border-style: Solid;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Label2
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 15px;
+	top: 11px;
+	width: 171px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Center;
+	word-wrap: normal;
+}
+
+#Label4
+{
+	background-color: Transparent;
+	font-family: arial;
+	font-size: 45px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 20px;
+	top: 46px;
+	width: 167px;
+	height: 59px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Center;
+	word-wrap: normal;
+}
+

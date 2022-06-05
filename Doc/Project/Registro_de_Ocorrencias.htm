@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Registro de Ocorrências</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Registro de Ocorrências</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_REGISTRO_OCORRENCIAS</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_registro_ocorrencias</td></tr>
+      <tr><th>Provider: </th><td>Registro_de_Ocorrencias</td></tr>
+      <tr><th>Index: </th><td>PK_TB_REGISTRO_OCORRENCIAS</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ID_REG_OCOR</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_NUM_TALAO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_NUM_TALAO))}{ServerValidation =(CheckNotEmpty(REG_NUM_TALAO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_NUM_TALAO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox6</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_SOLICITANTE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_SOLICITANTE))}{ServerValidation =(CheckNotEmpty(REG_SOLICITANTE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_SOLICITANTE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_VIATURA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_VIATURA))}{ServerValidation =(CheckNotEmpty(REG_VIATURA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_VIATURA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox7</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_TELEFONE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_TELEFONE))}{ServerValidation =(CheckNotEmpty(REG_TELEFONE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_TELEFONE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtCEP</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_CEP</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_CEP))}{ServerValidation =(CheckNotEmpty(REG_CEP))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_CEP não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox14</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_REFERENCIA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_REFERENCIA))}{ServerValidation =(CheckNotEmpty(REG_REFERENCIA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_REFERENCIA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_PRIORIDADE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_PRIORIDADE))}{ServerValidation =(CheckNotEmpty(REG_PRIORIDADE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_PRIORIDADE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_STATUS</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_STATUS))}{ServerValidation =(CheckNotEmpty(REG_STATUS))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_STATUS não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_DATA_FINAL</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox21</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_HISTORICO_FINAL</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox22</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_HISTORICO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox23</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_RESUMO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox6</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_NATUREZA_FINAL</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox7</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_NATUREZA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_NATUREZA))}{ServerValidation =(CheckNotEmpty(REG_NATUREZA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_NATUREZA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox24</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_ATENDENTE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_ATENDENTE))}{ServerValidation =(CheckNotEmpty(REG_ATENDENTE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_ATENDENTE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_DATA</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtUF</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_UF</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_UF))}{ServerValidation =(CheckNotEmpty(REG_UF))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_UF não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtBairro</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_BAIRRO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_BAIRRO))}{ServerValidation =(CheckNotEmpty(REG_BAIRRO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_BAIRRO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtCidade</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_CIDADE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_CIDADE))}{ServerValidation =(CheckNotEmpty(REG_CIDADE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_CIDADE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtLogradouro</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_LOGRADOURO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_LOGRADOURO))}{ServerValidation =(CheckNotEmpty(REG_LOGRADOURO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_LOGRADOURO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtTipoLogradouro</td></tr>
+      <tr><th>Campo Relacionado: </th><td>REG_TIPO_LOGRADOURO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(REG_TIPO_LOGRADOURO))}{ServerValidation =(CheckNotEmpty(REG_TIPO_LOGRADOURO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REG_TIPO_LOGRADOURO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+</div>
+
+	<div class="properties">
+		<h2>Tabela Auxiliar:<span>AUX_Registro_de_Ocorrencias_TB_VIATURAS</span></h2>
+		<table>
+			<tr><th>Banco</th><td>gcm</td></tr>
+			<tr><th>Tabela Relacionada</th><td>tb_viaturas</td></tr>
+			<tr><th>Forçar Relacionamento</th><td>True</td></tr>   
+			<tr><th>Indice</th><td></td></tr>
+			<tr><th>Menssagem</th><td></td></tr>
+		</table>
+		<h3>Campos Relacionados</h3>
+		<table>
+		  <tr><th>Tabela base: </th><td></td></tr>	
+		  <tr><th>Tabela auxiliar: </th><td>=(REG_VIATURA)</td></tr>
+		</table>
+		</br>
+		
+		
+	</div>
+</body>
+</html>

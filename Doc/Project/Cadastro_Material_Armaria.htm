@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cadastro Material - Armaria</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Cadastro Material - Armaria</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_MAT_BELICO</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_mat_belico</td></tr>
+      <tr><th>Provider: </th><td>Cadastro_Material___Armaria</td></tr>
+      <tr><th>Index: </th><td>PK_TB_MAT_BELICO</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_ID</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_DESCRICAO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MATBEL_DESCRICAO))}{ServerValidation =(CheckNotEmpty(MATBEL_DESCRICAO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>DESCRICAO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox8</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_MODELO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_FORNECEDOR</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MATBEL_FORNECEDOR))}{ServerValidation =(CheckNotEmpty(MATBEL_FORNECEDOR))}</td></tr>	
+      <tr><th>Mensagem: </th><td>FORNECEDOR não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_GRUPO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_SUBGRUPO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_QTDE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MATBEL_QTDE))}{ServerValidation =(CheckNotEmpty(MATBEL_QTDE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>QTDE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_EST_MINIMO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MATBEL_EST_MINIMO))}{ServerValidation =(CheckNotEmpty(MATBEL_EST_MINIMO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>EST_MINIMO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_EST_MAXIMO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MATBEL_EST_MAXIMO))}{ServerValidation =(CheckNotEmpty(MATBEL_EST_MAXIMO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>EST_MAXIMO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>GMultiMedia1</td></tr>
+      <tr><th>Campo Relacionado: </th><td></td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_DATA_VENCIMENTO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MATBEL_DATA_VENCIMENTO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>DATA_VENCIMENTO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_DATA_FABRICACAO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MATBEL_DATA_FABRICACAO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>DATA_FABRICACAO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox6</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_VALOR</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MATBEL_VALOR))}</td></tr>	
+      <tr><th>Mensagem: </th><td>VALOR não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox9</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_SERIE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox10</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_LOTE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_TAMANHO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox11</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_REF</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox6</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MATBEL_STATUS</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>

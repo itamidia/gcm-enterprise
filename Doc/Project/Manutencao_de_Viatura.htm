@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Manutenção de Viatura</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Manutenção de Viatura</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_MANUTENCAO_FROTA</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_manutencao_frota</td></tr>
+      <tr><th>Provider: </th><td>Manutencao_de_Viatura</td></tr>
+      <tr><th>Index: </th><td>PK_TB_MANUTENCAO_FROTA</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_ID</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_DATA</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_TIPO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_OFICINA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MANUT_OFICINA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>OFICINA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_TIPO_SERVICO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MANUT_TIPO_SERVICO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>TIPO_SERVICO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_DESCRICAO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MANUT_DESCRICAO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>DESCRICAO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboPLACA</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_PLACA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MANUT_PLACA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>PLACA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboVIATURA</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_VIATURA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MANUT_VIATURA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>VEICULO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_KM</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_DATA_INICIO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_DATA_PREVISTA_TERMINO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_DATA_PREVISTA</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_RESPONSAVEL</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(MANUT_RESPONSAVEL))}</td></tr>	
+      <tr><th>Mensagem: </th><td>RESPONSAVEL não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_VALOR</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboPREFIXO</td></tr>
+      <tr><th>Campo Relacionado: </th><td>MANUT_PREFIXO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+</div>
+
+	<div class="properties">
+		<h2>Tabela Auxiliar:<span>AUX_Manuten__o_de_Viatura_TB_VIATURAS</span></h2>
+		<table>
+			<tr><th>Banco</th><td>gcm</td></tr>
+			<tr><th>Tabela Relacionada</th><td>tb_viaturas</td></tr>
+			<tr><th>Forçar Relacionamento</th><td>True</td></tr>   
+			<tr><th>Indice</th><td>PK_TB_VIATURAS</td></tr>
+			<tr><th>Menssagem</th><td></td></tr>
+		</table>
+		<h3>Campos Relacionados</h3>
+		<table>
+		  <tr><th>Tabela base: </th><td>VIA_ID</td></tr>	
+		  <tr><th>Tabela auxiliar: </th><td>=(MANUT_VIATURA)</td></tr>
+		</table>
+		</br>
+		
+		<h3>Processos</h3>
+		<table>
+		  <tr><th>Título: </th><td>aTUALIZA_vIATURA</td></tr>	
+		  <tr><th>Condição Direta: </th><td>=([AUX_Manuten__o_de_Viatura_TB_VIATURAS].[VIA_STATUS] == 2)</td></tr>	
+		  <tr><th>Fórmula Direta: </th><td>4</td></tr>
+		  <tr><th>Executa Processo antes de Salvar: </th><td>False</td></tr>	
+		  <tr><th>Condição Inversa: </th><td></td></tr>	
+		  <tr><th>Formula Inversa: </th><td></td></tr>
+		  <tr><th>Campo Alvo: </th><td>VIA_STATUS</td></tr>
+		</table>
+		</br>
+		
+	</div>
+</body>
+</html>

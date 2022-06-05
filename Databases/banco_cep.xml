@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GCM_ENTERPRISE___SISTEMA_ADMIN>
+<DATABASE NAME="banco_cep" TITLE="banco_cep">
+	<TABLE NAME="log_bairro" TITLE="log_bairro">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="TRUE" SEQUENCE="1" NAME="bai_nu_sequencial" TITLE="id" />
+		<FIELD TYPE="TEXT" SIZE="2" MASK="@!" NAME="ufe_sg" TITLE="UF" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_nu_sequencial" TITLE="Cidade" />
+		<FIELD TYPE="TEXT" SIZE="72" MASK="@!" NAME="bai_no" TITLE="Bairro" />
+		<FIELD TYPE="TEXT" SIZE="36" MASK="@!" NAME="bai_no_abrev" TITLE="Abreviação" />
+		<INDEX NAME="PK_LOG_BAIRRO" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="0" TITLE="PRIMARY">
+			<FIELD NAME="bai_nu_sequencial" />
+		</INDEX>
+	</TABLE>
+	<TABLE NAME="log_controle" TITLE="log_controle">
+		<FIELD TYPE="TEXT" SIZE="4" MASK="@!" NAME="versao" TITLE="versao" />
+		<FIELD TYPE="DATETIME" MASK="dd/MM/yy" NAME="data" TITLE="data" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" NAME="compl1" TITLE="compl1" />
+	</TABLE>
+	<TABLE NAME="log_cpc" TITLE="log_cpc">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="cpc_nu_sequencial" TITLE="cpc_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="2" MASK="@!" NAME="ufe_sg" TITLE="ufe_sg" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_nu_sequencial" TITLE="loc_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="16" MASK="@!" NAME="cep" TITLE="cep" />
+		<FIELD TYPE="TEXT" SIZE="96" MASK="@!" NAME="cpc_no" TITLE="cpc_no" />
+		<FIELD TYPE="TEXT" SIZE="108" MASK="@!" NAME="cpc_endereco" TITLE="cpc_endereco" />
+		<FIELD TYPE="TEXT" SIZE="2" MASK="@!" NAME="cpc_tipo" TITLE="cpc_tipo" />
+		<FIELD TYPE="TEXT" SIZE="80" MASK="@!" NAME="cpc_abrangencia" TITLE="cpc_abrangencia" />
+		<FIELD TYPE="TEXT" SIZE="8" MASK="@!" NAME="temp" TITLE="temp" />
+		<INDEX NAME="PK_LOG_CPC" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="0" TITLE="PRIMARY">
+			<FIELD NAME="cpc_nu_sequencial" />
+		</INDEX>
+	</TABLE>
+	<TABLE NAME="log_faixa_bairro" TITLE="log_faixa_bairro">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="bai_nu_sequencial" TITLE="bai_nu_sequencial" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="fcb_nu_ordem" TITLE="fcb_nu_ordem" />
+		<FIELD TYPE="TEXT" SIZE="5" MASK="@!" NAME="fcb_rad_ini" TITLE="fcb_rad_ini" />
+		<FIELD TYPE="TEXT" SIZE="3" MASK="@!" NAME="fcb_suf_ini" TITLE="fcb_suf_ini" />
+		<FIELD TYPE="TEXT" SIZE="5" MASK="@!" NAME="fcb_rad_fim" TITLE="fcb_rad_fim" />
+		<FIELD TYPE="TEXT" SIZE="3" MASK="@!" NAME="fcb_suf_fim" TITLE="fcb_suf_fim" />
+		<INDEX NAME="PK_LOG_FAIXA_BAIRRO" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="0" TITLE="PRIMARY">
+			<FIELD NAME="bai_nu_sequencial" />
+			<FIELD NAME="fcb_nu_ordem" />
+		</INDEX>
+	</TABLE>
+	<TABLE NAME="log_faixa_cpc" TITLE="log_faixa_cpc">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="cpc_nu_sequencial" TITLE="cpc_nu_sequencial" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="cpc_nu_inicial" TITLE="cpc_nu_inicial" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="cpc_nu_final" TITLE="cpc_nu_final" />
+		<INDEX NAME="PK_LOG_FAIXA_CPC" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="0" TITLE="PRIMARY">
+			<FIELD NAME="cpc_nu_sequencial" />
+			<FIELD NAME="cpc_nu_inicial" />
+		</INDEX>
+	</TABLE>
+	<TABLE NAME="log_faixa_localidade" TITLE="log_faixa_localidade">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_nu_sequencial" TITLE="loc_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="5" MASK="@!" NAME="loc_rad1_ini" TITLE="loc_rad1_ini" />
+		<FIELD TYPE="TEXT" SIZE="3" MASK="@!" NAME="loc_suf1_ini" TITLE="loc_suf1_ini" />
+		<FIELD TYPE="TEXT" SIZE="5" MASK="@!" NAME="loc_rad1_fim" TITLE="loc_rad1_fim" />
+		<FIELD TYPE="TEXT" SIZE="3" MASK="@!" NAME="loc_suf1_fim" TITLE="loc_suf1_fim" />
+		<FIELD TYPE="TEXT" SIZE="5" MASK="@!" NAME="loc_rad2_ini" TITLE="loc_rad2_ini" />
+		<FIELD TYPE="TEXT" SIZE="3" MASK="@!" NAME="loc_suf2_ini" TITLE="loc_suf2_ini" />
+		<FIELD TYPE="TEXT" SIZE="5" MASK="@!" NAME="loc_rad2_fim" TITLE="loc_rad2_fim" />
+		<FIELD TYPE="TEXT" SIZE="3" MASK="@!" NAME="loc_suf2_fim" TITLE="loc_suf2_fim" />
+		<INDEX NAME="PK_LOG_FAIXA_LOCALIDADE" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="0" TITLE="PRIMARY">
+			<FIELD NAME="loc_nu_sequencial" />
+		</INDEX>
+	</TABLE>
+	<TABLE NAME="log_faixa_uf" TITLE="log_faixa_uf">
+		<FIELD TYPE="TEXT" SIZE="2" MASK="@!" NAME="ufe_sg" TITLE="ufe_sg" />
+		<FIELD TYPE="TEXT" SIZE="72" MASK="@!" NAME="ufe_no" TITLE="ufe_no" />
+		<FIELD TYPE="TEXT" SIZE="5" MASK="@!" NAME="ufe_rad1_ini" TITLE="ufe_rad1_ini" />
+		<FIELD TYPE="TEXT" SIZE="3" MASK="@!" NAME="ufe_suf1_ini" TITLE="ufe_suf1_ini" />
+		<FIELD TYPE="TEXT" SIZE="5" MASK="@!" NAME="ufe_rad1_fim" TITLE="ufe_rad1_fim" />
+		<FIELD TYPE="TEXT" SIZE="3" MASK="@!" NAME="ufe_suf1_fim" TITLE="ufe_suf1_fim" />
+		<FIELD TYPE="TEXT" SIZE="5" MASK="@!" NAME="ufe_rad2_ini" TITLE="ufe_rad2_ini" />
+		<FIELD TYPE="TEXT" SIZE="3" MASK="@!" NAME="ufe_suf2_ini" TITLE="ufe_suf2_ini" />
+		<FIELD TYPE="TEXT" SIZE="5" MASK="@!" NAME="ufe_rad2_fim" TITLE="ufe_rad2_fim" />
+		<FIELD TYPE="TEXT" SIZE="3" MASK="@!" NAME="ufe_suf2_fim" TITLE="ufe_suf2_fim" />
+		<INDEX NAME="PK_LOG_FAIXA_UF" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="0" TITLE="PRIMARY">
+			<FIELD NAME="ufe_sg" />
+		</INDEX>
+	</TABLE>
+	<TABLE NAME="log_faixa_uop" TITLE="log_faixa_uop">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="uop_nu_sequencial" TITLE="uop_nu_sequencial" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="fnc_nu_inicial" TITLE="fnc_nu_inicial" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="fnc_nu_final" TITLE="fnc_nu_final" />
+		<FIELD TYPE="TEXT" SIZE="255" MASK="@!" NAME="fnc_in_tipo" TITLE="fnc_in_tipo" />
+		<INDEX NAME="PK_LOG_FAIXA_UOP" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="0" TITLE="PRIMARY">
+			<FIELD NAME="uop_nu_sequencial" />
+			<FIELD NAME="fnc_nu_inicial" />
+		</INDEX>
+	</TABLE>
+	<TABLE NAME="log_grande_usuario" TITLE="log_grande_usuario">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="gru_nu_sequencial" TITLE="gru_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="2" MASK="@!" NAME="ufe_sg" TITLE="ufe_sg" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_nu_sequencial" TITLE="loc_nu_sequencial" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="log_nu_sequencial" TITLE="log_nu_sequencial" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="bai_nu_sequencial" TITLE="bai_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="96" MASK="@!" NAME="gru_no" TITLE="gru_no" />
+		<FIELD TYPE="TEXT" SIZE="16" MASK="@!" NAME="cep" TITLE="cep" />
+		<FIELD TYPE="TEXT" SIZE="200" MASK="@!" NAME="gru_endereco" TITLE="gru_endereco" />
+		<FIELD TYPE="TEXT" SIZE="8" MASK="@!" NAME="temp" TITLE="temp" />
+		<INDEX NAME="PK_LOG_GRANDE_USUARIO" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="0" TITLE="PRIMARY">
+			<FIELD NAME="gru_nu_sequencial" />
+		</INDEX>
+	</TABLE>
+	<TABLE NAME="log_localidade" TITLE="log_localidade">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_nu_sequencial" TITLE="loc_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" NAME="loc_nosub" TITLE="loc_nosub" />
+		<FIELD TYPE="TEXT" SIZE="60" MASK="@!" NAME="loc_no" TITLE="loc_no" />
+		<FIELD TYPE="TEXT" SIZE="16" MASK="@!" NAME="cep" TITLE="cep" />
+		<FIELD TYPE="TEXT" SIZE="2" MASK="@!" NAME="ufe_sg" TITLE="ufe_sg" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_in_situacao" TITLE="loc_in_situacao" />
+		<FIELD TYPE="TEXT" SIZE="1" MASK="@!" NAME="loc_in_tipo_localidade" TITLE="loc_in_tipo_localidade" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_nu_sequencial_sub" TITLE="loc_nu_sequencial_sub" />
+		<FIELD TYPE="TEXT" SIZE="8" MASK="@!" NAME="temp" TITLE="temp" />
+		<INDEX NAME="PK_LOG_LOCALIDADE" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="0" TITLE="PRIMARY">
+			<FIELD NAME="loc_nu_sequencial" />
+		</INDEX>
+	</TABLE>
+	<TABLE NAME="log_logradouro" TITLE="log_logradouro">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="TRUE" SEQUENCE="1" NAME="log_nu_sequencial" TITLE="log_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="2" MASK="@!" NAME="ufe_sg" TITLE="ufe_sg" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_nu_sequencial" TITLE="loc_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="70" MASK="@!" NAME="log_no" TITLE="log_no" />
+		<FIELD TYPE="TEXT" SIZE="125" MASK="@!" NAME="log_nome" TITLE="log_nome" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="bai_nu_sequencial_ini" TITLE="bai_nu_sequencial_ini" />
+		<FIELD TYPE="TEXT" SIZE="16" MASK="@!" NAME="cep" TITLE="cep" />
+		<FIELD TYPE="TEXT" SIZE="72" MASK="@!" NAME="log_tipo_logradouro" TITLE="log_tipo_logradouro" />
+		<FIELD TYPE="TEXT" SIZE="70" MASK="@!" NAME="log_no_sem_acento" TITLE="log_no_sem_acento" />
+		<FIELD TYPE="TEXT" SIZE="8" MASK="@!" NAME="temp" TITLE="temp" />
+		<INDEX NAME="PK_LOG_LOGRADOURO" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="0" TITLE="PRIMARY">
+			<FIELD NAME="log_nu_sequencial" />
+		</INDEX>
+	</TABLE>
+	<TABLE NAME="log_tipo_logr" TITLE="log_tipo_logr">
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" NAME="tipologradouro" TITLE="tipologradouro" />
+	</TABLE>
+	<TABLE NAME="log_unid_oper" TITLE="log_unid_oper">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="uop_nu_sequencial" TITLE="uop_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="2" MASK="@!" NAME="ufe_sg" TITLE="ufe_sg" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_nu_sequencial" TITLE="loc_nu_sequencial" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="log_nu_sequencial" TITLE="log_nu_sequencial" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="bai_nu_sequencial" TITLE="bai_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="100" MASK="@!" NAME="uop_no" TITLE="uop_no" />
+		<FIELD TYPE="TEXT" SIZE="16" MASK="@!" NAME="cep" TITLE="cep" />
+		<FIELD TYPE="TEXT" SIZE="200" MASK="@!" NAME="uop_endereco" TITLE="uop_endereco" />
+		<FIELD TYPE="TEXT" SIZE="1" MASK="@!" NAME="uop_in_cp" TITLE="uop_in_cp" />
+		<FIELD TYPE="TEXT" SIZE="8" MASK="@!" NAME="temp" TITLE="temp" />
+		<INDEX NAME="PK_LOG_UNID_OPER" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="0" TITLE="PRIMARY">
+			<FIELD NAME="uop_nu_sequencial" />
+		</INDEX>
+	</TABLE>
+	<TABLE NAME="bairro_por_UF" TITLE="bairro_por_UF">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="bai_nu_sequencial" TITLE="bai_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="2" MASK="@!" NAME="ufe_sg" TITLE="ufe_sg" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_nu_sequencial" TITLE="loc_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="72" MASK="@!" NAME="bai_no" TITLE="bai_no" />
+		<FIELD TYPE="TEXT" SIZE="36" MASK="@!" NAME="bai_no_abrev" TITLE="bai_no_abrev" />
+	</TABLE>
+	<TABLE NAME="logradouro_por_cidade" TITLE="logradouro_por_cidade">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="log_nu_sequencial" TITLE="log_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="2" MASK="@!" NAME="ufe_sg" TITLE="ufe_sg" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_nu_sequencial" TITLE="loc_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="70" MASK="@!" NAME="log_no" TITLE="log_no" />
+		<FIELD TYPE="TEXT" SIZE="125" MASK="@!" NAME="log_nome" TITLE="log_nome" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="bai_nu_sequencial_ini" TITLE="bai_nu_sequencial_ini" />
+		<FIELD TYPE="TEXT" SIZE="16" MASK="@!" NAME="cep" TITLE="cep" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="bai_nu_sequencial_fim" TITLE="bai_nu_sequencial_fim" />
+		<FIELD TYPE="TEXT" SIZE="100" MASK="@!" NAME="log_complemento" TITLE="log_complemento" />
+		<FIELD TYPE="TEXT" SIZE="72" MASK="@!" NAME="log_tipo_logradouro" TITLE="log_tipo_logradouro" />
+		<FIELD TYPE="TEXT" SIZE="1" MASK="@!" NAME="log_status_tipo_log" TITLE="log_status_tipo_log" />
+		<FIELD TYPE="TEXT" SIZE="70" MASK="@!" NAME="log_no_sem_acento" TITLE="log_no_sem_acento" />
+		<FIELD TYPE="TEXT" SIZE="1" MASK="@!" NAME="ind_uop" TITLE="ind_uop" />
+		<FIELD TYPE="TEXT" SIZE="1" MASK="@!" NAME="ind_gru" TITLE="ind_gru" />
+		<FIELD TYPE="TEXT" SIZE="8" MASK="@!" NAME="temp" TITLE="temp" />
+	</TABLE>
+	<TABLE NAME="cidade_por_uf" TITLE="cidade_por_uf">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_nu_sequencial" TITLE="loc_nu_sequencial" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" NAME="loc_nosub" TITLE="loc_nosub" />
+		<FIELD TYPE="TEXT" SIZE="60" MASK="@!" NAME="loc_no" TITLE="loc_no" />
+		<FIELD TYPE="TEXT" SIZE="16" MASK="@!" NAME="cep" TITLE="cep" />
+		<FIELD TYPE="TEXT" SIZE="2" MASK="@!" NAME="ufe_sg" TITLE="ufe_sg" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_in_situacao" TITLE="loc_in_situacao" />
+		<FIELD TYPE="TEXT" SIZE="1" MASK="@!" NAME="loc_in_tipo_localidade" TITLE="loc_in_tipo_localidade" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9.999.999.999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" NAME="loc_nu_sequencial_sub" TITLE="loc_nu_sequencial_sub" />
+		<FIELD TYPE="TEXT" SIZE="8" MASK="@!" NAME="temp" TITLE="temp" />
+	</TABLE>
+</DATABASE>
+</GCM_ENTERPRISE___SISTEMA_ADMIN>

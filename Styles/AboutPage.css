@@ -1,0 +1,308 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	height: 545px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	height: 545px;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	margin: 0 0 0 0;
+	min-height: 477px;
+	overflow: inherit;
+	position: relative;
+	top: 0px;
+}
+
+#Div1
+{
+	background-color: #FFFFFF;
+	position: absolute !important;
+	left: 50%;
+	top: 50%;
+	margin-left: -252px;
+	margin-top: -238px;
+	width: 504px;
+	height: 477px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Div4
+{
+	background-color: #006699;
+	position: absolute !important;
+	left: -1px;
+	top: -1px;
+	width: 504px;
+	height: 53px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#labSolutionTitle
+{
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 5px;
+	top: 6px;
+	width: 484px;
+	height: 25px;
+	background-color: Transparent;
+	color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#ProjectVersion
+{
+	font-family: Verdana;
+	font-size: 9px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 85px;
+	top: 27px;
+	width: 100px;
+	height: 25px;
+	background-color: Transparent;
+	color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#Label1
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 19px;
+	top: 32px;
+	width: 64px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Panel1
+{
+	position: absolute !important;
+	left: 14px;
+	top: 334px;
+	width: 470px;
+	height: 111px;
+	background-color: #FFFFFF;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #CCCCCC;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#labProjectTitle
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 8px;
+	top: 7px;
+	width: 200px;
+	height: 25px;
+	background-color: Transparent;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#CompanyName
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 8px;
+	top: 27px;
+	width: 406px;
+	height: 25px;
+	background-color: Transparent;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#Link1
+{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 8px;
+	top: 85px;
+	width: 216px;
+	height: 22px;
+	background-color: Transparent;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: pointer;
+	opacity: 1;
+	text-align: Left;
+}
+
+#Link2
+{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 241px;
+	top: 85px;
+	width: 216px;
+	height: 22px;
+	background-color: Transparent;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: pointer;
+	opacity: 1;
+	text-align: Right;
+}
+
+#Link3
+{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 8px;
+	top: 55px;
+	width: 216px;
+	height: 22px;
+	background-color: Transparent;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: pointer;
+	opacity: 1;
+	text-align: Left;
+}
+
+#Link4
+{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 241px;
+	top: 55px;
+	width: 216px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #00A1D6;
+	cursor: pointer;
+	opacity: 1;
+	text-align: Right;
+}
+
+#ProjectCopyright
+{
+	font-family: Verdana;
+	font-size: 9px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 14px;
+	top: 451px;
+	width: 472px;
+	height: 21px;
+	background-color: Transparent;
+	color: #BBBBBB;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Center;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#Image1
+{
+	position: absolute !important;
+	left: 17px;
+	top: 67px;
+	width: 469px;
+	height: 250px;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+/*		Hover style		*/
+
+#Link1:hover
+{
+	color: #000000;
+}
+

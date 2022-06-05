@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pages>
+	<Page Name="Cadastro_de_Estoque.aspx" Title="Cadastro de Estoque" />
+	<Page Name="Controle_de_Estoque___Consulta.aspx" Title="Controle de Estoque - Consulta" />
+	<Page Name="Listagem_Geral_de_Estoque.aspx" Title="Listagem Geral de Estoque" />
+	<Page Name="Listagem_de_Fornecedores.aspx" Title="Listagem de Fornecedores" />
+	<Page Name="Cadastro_de_Fornecedor.aspx" Title="Cadastro de Fornecedor" />
+	<Page Name="Listagem_Geral_de_Fornecedores.aspx" Title="Listagem Geral de Fornecedores" />
+	<Page Name="Saida_de_Estque.aspx" Title="Saída de Estque" />
+	<Page Name="Entrada_Estoque.aspx" Title="Entrada de Estoque" />
+	<Page Name="Cadastro_de_Grupos.aspx" Title="Cadastro de Grupos" />
+	<Page Name="Cadastro_de_Subgrupo.aspx" Title="Cadastro de Subgrupo" />
+	<Page Name="Cadastro_de_Almoxarifado.aspx" Title="Cadastro de Almoxarifado" />
+	<Page Name="Almoxarifado___Listagem.aspx" Title="Almoxarifado - Listagem" />
+	<Page Name="TIPOS_DE_OCORRENCIAS.aspx" Title="TIPOS DE OCORRÊNCIAS" />
+	<Page Name="APOIO_bo.aspx" Title="APOIO" />
+	<Page Name="GCM_bo.aspx" Title="GCM" />
+	<Page Name="Taloes_Encerrados.aspx" Title="Talões Encerrados" />
+	<Page Name="TB_PLANTAO.aspx" Title="Plantão Horário" />
+	<Page Name="C_digos_de_Ocorrencias.aspx" Title="Natureza de Ocorrências" />
+	<Page Name="Viaturas_Disponiveis.aspx" Title="Viaturas Disponiveis" />
+	<Page Name="Viaturas_Em_Atendimento.aspx" Title="Viaturas Em Atendimento" />
+	<Page Name="Ocorrencias_Pendentes.aspx" Title="Ocorrências Pendentes" />
+	<Page Name="Listagem_de_B_Ocorrencias.aspx" Title="Listagem de B. Ocorrências" />
+	<Page Name="Boletim_de_Ocorrencia.aspx" Title="Boletim de Ocorrência" />
+	<Page Name="Status_de_Ocorr_ncias.aspx" Title="Status de Ocorrências" />
+	<Page Name="Todos_os_Taloes_Listagem.aspx" Title="Todos os Talões" />
+	<Page Name="Taloes_em_Aberto.aspx" Title="Talões em Aberto" />
+	<Page Name="Taloes_Abertura.aspx" Title="Talões - Abertura" />
+	<Page Name="Taloes_Encerrar.aspx" Title="Talões Encerrar" />
+	<Page Name="Motivos_de_Tal_es.aspx" Title="Motivos de Talões" />
+	<Page Name="Prioridades_de_Ocorr_ncias.aspx" Title="Prioridades de Ocorrências" />
+	<Page Name="Registros_de_Ocorrencias_Listagem.aspx" Title="Registros de Ocorrências - Listagem" />
+	<Page Name="Registro_de_Ocorrencias.aspx" Title="Registro de Ocorrências" />
+	<Page Name="Boletins_Em_Atendimento.aspx" Title="Boletins_Em_Atendimento" />
+	<Page Name="Registros_Em_Atendimento.aspx" Title="Registros_Em_Atendimento" />
+	<Page Name="Boletim_de_Ocorrencia_Encerramento.aspx" Title="Boletim de Ocorreência - Encerramento" />
+	<Page Name="Registro_de_Ocorr_ncias___Encerramento.aspx" Title="Registro de Ocorrências - Encerramento" />
+	<Page Name="Boletins_Em_Editar_Encerrar.aspx" Title="B.O - Editar/Encerrar" />
+	<Page Name="Registros_Em_Editar_Encerrar.aspx" Title="R.O. - Editar/Encerrar" />
+	<Page Name="Envolvidos.aspx" Title="Envolvidos" />
+	<Page Name="Apreensoes.aspx" Title="Apreensões" />
+	<Page Name="Apreensoes_Listagem.aspx" Title="Apreensões Listagem" />
+	<Page Name="TB_AUTUACAO_Repeater.aspx" Title="Autuação Listagem" />
+	<Page Name="TB_AUTUACAO.aspx" Title="Autuação" />
+	<Page Name="Galeria_de_Imagens___Info_Crime.aspx" Title="Galeria de Imagens - Info Crime" />
+	<Page Name="TB_INFO_CRIME.aspx" Title="Cadastro de Informações Criminais" />
+	<Page Name="TB_LEIS.aspx" Title="Leis" />
+	<Page Name="TB_TIPOS_LEIS_Grid.aspx" Title="Tipos de Leis" />
+	<Page Name="Cadastro_GCM.aspx" Title="Cadastro GCM" />
+	<Page Name="Listagem_Geral_de_GCM.aspx" Title="Listagem Geral de GCM" />
+	<Page Name="TB_COLABORADOR.aspx" Title="Cadastro de Colaborador" />
+	<Page Name="TB_COLABORADOR_LISTAGEM.aspx" Title="Cadastro de Colaborador - Listagem" />
+	<Page Name="Cadastro_de_Departamentos.aspx" Title="Cadastro de Departamentos" />
+	<Page Name="Cadastro_de_Procedimento_Disciplinar_Preliminar.aspx" Title="Cadastro de Procedimento Disciplinar Preliminar" />
+	<Page Name="Consulta_de_Procedimento_Disciplinar_Preliminar.aspx" Title="Consulta de Procedimento Disciplinar Preliminar" />
+	<Page Name="Cadastro_de_Folgas_Ferias.aspx" Title="Cadastro de Folgas/Férias" />
+	<Page Name="Cadastro_de_Solicita__o_de_F_rias_e_Folgas.aspx" Title="Cadastro de Solicitação de Férias e Folgas" />
+	<Page Name="Consulta_de_Solicita__o_de_F_rias_Folgas.aspx" Title="Consulta de Solicitação de Férias/Folgas" />
+	<Page Name="Cadastro_de_Folgas_Ferias_Colaborador.aspx" Title="Cadastro de Folgas/Férias - Colaborador" />
+	<Page Name="Consulta_de_Folgas_F_rias___Colaborador.aspx" Title="Consulta de Folgas/Férias - Colaborador" />
+	<Page Name="Consultas_de_Folgas_e_Ferias.aspx" Title="Consultas de Folgas e Férias" />
+	<Page Name="Folgas_Ferias.aspx" Title="Folgas/Férias" />
+	<Page Name="TB_CURSOS_COLABORADOR_Listagem.aspx" Title="Cursos Colaborador - Listagem" />
+	<Page Name="TB_CURSOS_COLABORADOR.aspx" Title="Cursos Colaborador" />
+	<Page Name="TB_ESCOLARIDADE_COLABORADOR.aspx" Title="Escolaridade Colaborador" />
+	<Page Name="PROC_DISC_PREL_ARQUIVOS___CONSULTA.aspx" Title="PROC DISC PREL ARQUIVOS - CONSULTA" />
+	<Page Name="Consultas_de_Nota_de_Puni__es.aspx" Title="Consultas de Nota de Punições" />
+	<Page Name="Cadastro_Nota_de_Puni__es.aspx" Title="Cadastro Nota de Punições" />
+	<Page Name="ADD_Arquivos.aspx" Title="ADD Arquivos" />
+	<Page Name="TB_ELOGIOS_Repeater.aspx" Title="ELOGIOS - Listagem" />
+	<Page Name="Cadastro_de_Elogios.aspx" Title="Cadastro de Elogios" />
+	<Page Name="TB_ELOGIOS.aspx" Title="ELOGIOS" />
+	<Page Name="Proc__Disciplinar_Preliminar.aspx" Title="Proc. Disciplinar Preliminar" />
+	<Page Name="TB_AVALIACAO_PSICO.aspx" Title="Avaliação Psicológica" />
+	<Page Name="TB_AVALIACAO_PSICO_Consulta.aspx" Title="Avaliação Psicológica - Listagem" />
+	<Page Name="Cadastro_de_Tipos_de_Folgas_F_rias.aspx" Title="Cadastro de Tipos de Folgas/Férias" />
+	<Page Name="Ordem_Servico_Consulta.aspx" Title="Ordem de Serviço - Listagem" />
+	<Page Name="Ordem_Servico.aspx" Title="Ordem Serviço" />
+	<Page Name="Postos_Fixos.aspx" Title="Postos Fixos" />
+	<Page Name="Setor.aspx" Title="Setor" />
+	<Page Name="Equipes.aspx" Title="Equipes" />
+	<Page Name="VisitasFiltros.aspx" Title="Visitas - Filtros" />
+	<Page Name="Escala_de_Apresenta__o___Corregedoria.aspx" Title="Escala de Apresentação - Corregedoria" />
+	<Page Name="Escala_de_Apresenta__o___Consulta.aspx" Title="Escala de Apresentação - Consulta" />
+	<Page Name="TB_VITIMA_MARIA_DA_PENHA.aspx" Title="Cadastro de Vítimas" />
+	<Page Name="TB_VITIMA_MARIA_DA_PENHA_Repeater.aspx" Title="Cadastro de Vítimas - Listagem" />
+	<Page Name="TB_VITIMA_VISITA.aspx" Title="Relatório de Fiscalização de Medida Protetiva" />
+	<Page Name="TB_VITIMA_VISITA_LISTAGEM.aspx" Title="Relatório de Fiscalização de Medida Protetiva - Listagem" />
+	<Page Name="TB_VITIMA_VISITA_EDICAO.aspx" Title="Relatório de Fiscalização de Medida Protetiva" />
+	<Page Name="TB_PROC_ADMIN_Listagem.aspx" Title="Processo Administrativo - Listagem" />
+	<Page Name="TB_PROCESSO_ADMINISTRATIVO.aspx" Title="Processo Administrativo" />
+	<Page Name="Liberar_Viaturas_Listagem.aspx" Title="Liberar Viaturas - Listagem" />
+	<Page Name="Liberar_Viatura.aspx" Title="Liberar Viatura" />
+	<Page Name="MANUTENCAO_FROTA_Listagem.aspx" Title="Manutenção de Viaturas Listagem" />
+	<Page Name="Cadastro_de_Oficinas.aspx" Title="Cadastro de Oficinas" />
+	<Page Name="Cadastro_de_Viaturas.aspx" Title="Cadastro de Viaturas" />
+	<Page Name="Controle_de_Troca_de__leo_Filtros.aspx" Title="Controle de Troca de Óleo/Filtros" />
+	<Page Name="Controle_de_Abastecimento.aspx" Title="Controle de Abastecimento" />
+	<Page Name="Cadastro_de_Servi_os.aspx" Title="Cadastro de Serviços" />
+	<Page Name="Manutencao_de_Viatura.aspx" Title="Manutenção de Viatura" />
+	<Page Name="Listagem_Geral_de_Oficina.aspx" Title="Listagem Geral de Oficina" />
+	<Page Name="Editar_Viaturas.aspx" Title="Editar Viaturas" />
+	<Page Name="Listagem_Geral_de_Viatura.aspx" Title="Listagem Geral de Viatura" />
+	<Page Name="Consulta_de_Viatura.aspx" Title="Consulta de Viatura" />
+	<Page Name="Relatorio_MOTOMEC_Cadastro.aspx" Title="Relatório MOTOMEC" />
+	<Page Name="ADD_Fotos.aspx" Title="ADD Fotos" />
+	<Page Name="Consultas_de_Relatorios_MOTOMEC.aspx" Title="Consultas de Relatórios MOTOMEC" />
+	<Page Name="Descautelar_Materiais___Permanente.aspx" Title="Descautelar Materiais - Permanente" />
+	<Page Name="Listagem_de_Materiais_Cautelados.aspx" Title="Listagem de Materiais Cautelados" />
+	<Page Name="Descautelar_Material.aspx" Title="Descautelar Material" />
+	<Page Name="Listagem_de_Cautela_de_Material.aspx" Title="Listagem de Cautela de Material" />
+	<Page Name="Listagem_de_Cautela_Permanente.aspx" Title="Listagem de Cautela Permanente" />
+	<Page Name="Passagem_de_Turno___Aberto.aspx" Title="Passagem de Plantão - Aberto" />
+	<Page Name="Passagem_de_Plant_o___Armaria.aspx" Title="Passagem de Plantão - Armaria" />
+	<Page Name="Cautela_de_Equipamentos.aspx" Title="Cautela de Equipamentos" />
+	<Page Name="Cautela_Permanente_.aspx" Title="Cautela Permanente" />
+	<Page Name="Lancar_Materiais.aspx" Title="Lançar Materiais" />
+	<Page Name="Cadastro_de_Armas.aspx" Title="Cadastro de Armas" />
+	<Page Name="Cadastro_de_Esp_cie__ARMAS.aspx" Title="Cadastro de Espécie- ARMAS" />
+	<Page Name="Cadastro_de_Modelo___ARMAS.aspx" Title="Cadastro de Modelo - ARMAS" />
+	<Page Name="Cadastro_de_Calibre___ARMAS.aspx" Title="Cadastro de Calibre - ARMAS" />
+	<Page Name="Cadastro_Material_Armaria.aspx" Title="Cadastro Material - Armaria" />
+	<Page Name="Cadastro_de_Grupos___MAT_B_lico.aspx" Title="Cadastro de Grupos - MAT Bélico" />
+	<Page Name="Entrada_Armaria.aspx" Title="Entrada Armaria" />
+	<Page Name="Cadastro_SubGrupo___MAT_B_lico.aspx" Title="Cadastro SubGrupo - MAT Bélico" />
+	<Page Name="Cadastro_de_Marcas_Material_Belico.aspx" Title="Cadastro de Marcas Material Bélico" />
+	<Page Name="TB_LIVRO_CAIXA.aspx" Title="Movimentações de Caixa" />
+	<Page Name="Receitas.aspx" Title="Receitas" />
+	<Page Name="Despesas.aspx" Title="Despesas" />
+	<Page Name="Listagem_Geral_de_Ocorrencias.aspx" Title="Listagem Geral de Ocorrencias" />
+	<Page Name="Boletim_Ocorrencias_Filtros.aspx" Title="Boletim Ocorrencias - Filtros" />
+	<Page Name="Registro_de_Ocorrencias_Filtros.aspx" Title="Registro de Ocorrencias - Filtros" />
+	<Page Name="TB_INFO_CRIME_Repeater.aspx" Title="Cadastro de Informações Criminais - Listagem" />
+	<Page Name="Listagem_de_Materiais_Cautelados_Permanentes.aspx" Title="Listagem de Materiais Cautelados Permanentes" />
+	<Page Name="Autuacao_Filtros.aspx" Title="Autuação - Filtros" />
+	<Page Name="Material_B_lico_Listagem.aspx" Title="Material Bélico Listagem" />
+	<Page Name="Tal_es___Filtros.aspx" Title="Talões - Filtros" />
+	<Page Name="Listagem_Geral_de_Armas.aspx" Title="Listagem Geral de Armas" />
+	<Page Name="Mapa_Forca.aspx" Title="Mapa Força" />
+	<Page Name="Mapa_Forca_Aberto.aspx" Title="Mapa Força - Aberto" />
+	<Page Name="Estoque_Filtros.aspx" Title="Estoque - Filtros" />
+	<Page Name="Gerar_BO.aspx" Title="Gerar B.O" />
+	<Page Name="armaria_filtro.aspx" Title="Armaria - Por Periodo Filtro" />
+	<Page Name="FirstPage.aspx" Title="FirstPage" />
+	<Page Name="DashBoard.aspx" Title="dashboard" />
+	<Page Name="CECOM.aspx" Title="Sistema de Informações de Ocorrências" />
+	<Page Name="Controle_Supervisao.aspx" Title="Controle de Supervisão" />
+	<Page Name="Guardia_Maria_da_Penha.aspx" Title="Guardiã Maria da Penha" />
+	<Page Name="Controle_Movimentacoes_Financeiras.aspx" Title="Controle de Movimentações de Caixa" />
+	<Page Name="Config.aspx" Title="Configurações do Sistema" />
+	<Page Name="Controle_da_Corregedoria.aspx" Title="Controle da Corregedoria" />
+	<Page Name="Controle_de_Ocorrencia.aspx" Title="Controle de Ocorrências" />
+	<Page Name="Controle_do_Almoxarifado.aspx" Title="Controle do Almoxarifado" />
+	<Page Name="Controle_de_Armaria.aspx" Title="Controle de Armaria" />
+	<Page Name="Controle_de_Recursos_Humanos.aspx" Title="Controle de Recursos Humanos" />
+	<Page Name="Relat_rios.aspx" Title="Relatórios" />
+	<Page Name="Controle_do_Motomec.aspx" Title="Controle do Motomec" />
+	<Page Name="Cadastro_de_Bairros.aspx" Title="Cadastro de Bairros" />
+	<Page Name="Cadastro_de_Logradouros.aspx" Title="Cadastro de Logradouros" />
+	<Page Name="passagem_turno_armaria.aspx" Title="Passagem de Turno - Telerik" />
+	<Page Name="armaria_detalhe.aspx" Title="Detalhe Armaria - Telerik" />
+	<Page Name="Aviso_de_Ferias.aspx" Title="Aviso de Férias- Telerik" />
+	<Page Name="Licenca_Premio.aspx" Title="Licença Prêmio - Telerik" />
+	<Page Name="licenca_premio_colaborador.aspx" Title="Licença Prêmio - Colaborador - Telerik" />
+	<Page Name="aviso_ferias_colaborador.aspx" Title="Aviso de Férias - Colaborador - Telerik" />
+	<Page Name="elogios.aspx" Title="Elogios - Telerik" />
+	<Page Name="taloes_relatorio.aspx" Title="Talões - Telerik" />
+	<Page Name="ordem_servico_relatorio.aspx" Title="Ordem de Serviços - Telerik" />
+	<Page Name="Ostensivo.aspx" Title="Ostensivo  - Telerik" />
+	<Page Name="Especializado.aspx" Title="Especializado - Telerik" />
+	<Page Name="Postos_Fixos_Rel.aspx" Title="Postos Fixos - Telerik" />
+	<Page Name="Novidades_Relatorio.aspx" Title="Novidades - Telerik" />
+	<Page Name="Medida_protetiva_Rel.aspx" Title="Medida Protetiva - Telerik" />
+	<Page Name="Visitas_por_vitima.aspx" Title="Visitas por Vitima  - Telerik" />
+	<Page Name="Visitas_Vitima_Detalhe.aspx" Title="Visitas por Vitima Detalhe - Telerik" />
+	<Page Name="Relatorio_Visitas_Por_Data.aspx" Title="Relatório Visitas por Data - Telerik" />
+	<Page Name="vitima_visitas_relatorio.aspx" Title="Vitimas - Visitas Relatório - Telerik" />
+	<Page Name="Rel_Vitimas.aspx" Title="Relatório Vitimas - Telerik" />
+	<Page Name="Cabecalho_Relatorios.aspx" Title="Cabeçalho dos Relatórios - Telerik" />
+	<Page Name="rodape.aspx" Title="Rodape - Telerik" />
+	<Page Name="autuacoes_relatorios.aspx" Title="Autuação Relatório - Telerik" />
+	<Page Name="rodape_grande.aspx" Title="Rodape Grande - Telerik" />
+	<Page Name="boletim_ocorrencia_print.aspx" Title="Boletim de Ocorrencia - Telerik" />
+	<Page Name="gcm_bo_print.aspx" Title="GCM B.O - Telerik" />
+	<Page Name="APOIO_PRINT.aspx" Title="APOIO BO - Telerik" />
+	<Page Name="APREENSAO_PRINT.aspx" Title="APREENSÃO BO - Telerik" />
+	<Page Name="ENVOLVIDOS_PRINT.aspx" Title="ENVOLVIDOS BO - Telerik" />
+	<Page Name="cabecalho_grande.aspx" Title="Cabeçalho Grande - Telerik" />
+	<Page Name="rel_estoque.aspx" Title="Relatório - Estoque" />
+	<Page Name="taloes.aspx" Title="Taloes Relatório - Telerik" />
+	<Page Name="armas.aspx" Title="Armas Relatório - Telerik" />
+	<Page Name="material_belico.aspx" Title="Material Bélico Relatório - Telerik" />
+	<Page Name="boletim_relatorio.aspx" Title="Boletim de Ocorrencias Relatório - Telerik" />
+	<Page Name="armaria_filtros.aspx" Title="Armaria - Filtros Relatório - Telerik" />
+	<Page Name="registro_ocorrencias.aspx" Title="Registro de Ocorrencias Relatório - Telerik" />
+	<Page Name="mapa_forca_passagem.aspx" Title="Mapa Força - passagem - Telerik" />
+	<Page Name="Gr_fico_de_Ocorr_ncias.aspx" Title="Gráfico de Ocorrências" />
+	<Page Name="Relat_rio_grafico.aspx" Title="Relatório Grafico TEste" />
+	<Page Name="grafico_talao.aspx" Title="Graficos Talão - Telerik" />
+	<Page Name="Relat_rio_Talao.aspx" Title="Relatório Talao" />
+</Pages>

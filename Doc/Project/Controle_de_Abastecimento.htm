@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Controle de Abastecimento</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Controle de Abastecimento</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_ABASTECIMENTO</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_abastecimento</td></tr>
+      <tr><th>Provider: </th><td>Controle_de_Abastecimento</td></tr>
+      <tr><th>Index: </th><td>PK_TB_ABASTECIMENTO</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>AB_ID</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>AB_DATA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(AB_DATA))}{ServerValidation =(CheckNotEmpty(AB_DATA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>DATA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>AB_VALOR_LITRO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(AB_VALOR_LITRO))}{ServerValidation =(CheckNotEmpty(AB_VALOR_LITRO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>VALOR_LITRO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox6</td></tr>
+      <tr><th>Campo Relacionado: </th><td>AB_LITROS_ABASTECIDOS</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(AB_LITROS_ABASTECIDOS))}{ServerValidation =(CheckNotEmpty(AB_LITROS_ABASTECIDOS))}</td></tr>	
+      <tr><th>Mensagem: </th><td>LITROS_ABASTECIDOS não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox7</td></tr>
+      <tr><th>Campo Relacionado: </th><td>AB_HODOMETRO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox8</td></tr>
+      <tr><th>Campo Relacionado: </th><td>AB_KM</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>AB_VIATURA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty([CONTROLE NAO ENCONTRADO]))}</td></tr>	
+      <tr><th>Mensagem: </th><td>VEICULO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>AB_PLACA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(AB_PLACA))}{ServerValidation =(CheckNotEmpty(AB_PLACA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>PLACA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>AB_POSTO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(AB_POSTO))}{ServerValidation =(CheckNotEmpty(AB_POSTO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>POSTO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>

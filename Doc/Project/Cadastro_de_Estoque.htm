@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cadastro de Estoque</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Cadastro de Estoque</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_ESTOQUE</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_estoque</td></tr>
+      <tr><th>Provider: </th><td>Cadastro_de_Estoque</td></tr>
+      <tr><th>Index: </th><td>PK_TB_ESTOQUE</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_ID</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_DESCRICAO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ESTOQUE_DESCRICAO))}{ServerValidation =(CheckNotEmpty(ESTOQUE_DESCRICAO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>DESCRICAO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>GMultiMedia1</td></tr>
+      <tr><th>Campo Relacionado: </th><td></td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_TIPO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_MODELO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox6</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_MARCA</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox9</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_VALOR</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ESTOQUE_VALOR))}{ServerValidation =(CheckNotEmpty(ESTOQUE_VALOR))}</td></tr>	
+      <tr><th>Mensagem: </th><td>VALOR não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox8</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_QTDE</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ESTOQUE_QTDE))}{ServerValidation =(CheckNotEmpty(ESTOQUE_QTDE))}</td></tr>	
+      <tr><th>Mensagem: </th><td>QTDE não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox11</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_MAXIMO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ESTOQUE_MAXIMO))}{ServerValidation =(CheckNotEmpty(ESTOQUE_MAXIMO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>EST_MAXIMO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox7</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_REFERENCIA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ESTOQUE_REFERENCIA))}{ServerValidation =(CheckNotEmpty(ESTOQUE_REFERENCIA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>REFERENCIA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox10</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_MINIMO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ESTOQUE_MINIMO))}{ServerValidation =(CheckNotEmpty(ESTOQUE_MINIMO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>EST_MINIMO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_DEPARTAMENTO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ESTOQUE_DEPARTAMENTO))}{ServerValidation =(CheckNotEmpty(ESTOQUE_DEPARTAMENTO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>DEPARTAMENTO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox6</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_GRUPO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox7</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_SUBGRUPO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox12</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_N_PATRIMONIO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox13</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_N_CONTROLE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox8</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ESTOQUE_FORNECEDOR</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>

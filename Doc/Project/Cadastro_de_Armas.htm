@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cadastro de Armas</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Cadastro de Armas</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_ARMAS</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_armas</td></tr>
+      <tr><th>Provider: </th><td>Cadastro_de_Armas</td></tr>
+      <tr><th>Index: </th><td>PK_TB_ARMAS</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_ID</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_NUM_DO_REGISTRO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_NUM_DO_REGISTRO))}{ServerValidation =(CheckNotEmpty(ARM_NUM_DO_REGISTRO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>NUM_DO_REGISTRO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_RAZAO_SOCIAL</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_RAZAO_SOCIAL))}{ServerValidation =(CheckNotEmpty(ARM_RAZAO_SOCIAL))}</td></tr>	
+      <tr><th>Mensagem: </th><td>RAZAO_SOCIAL não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox6</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_NUM_SINARM</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_NUM_SINARM))}{ServerValidation =(CheckNotEmpty(ARM_NUM_SINARM))}</td></tr>	
+      <tr><th>Mensagem: </th><td>NUM_SINARM não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox10</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_NUM_DA_ARMA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_NUM_DA_ARMA))}{ServerValidation =(CheckNotEmpty(ARM_NUM_DA_ARMA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>NUM_DA_ARMA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox12</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_CAPACIDADE_DE_TIRO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_CAPACIDADE_DE_TIRO))}{ServerValidation =(CheckNotEmpty(ARM_CAPACIDADE_DE_TIRO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>CAPACIDADE_DE_TIRO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox13</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_FUNCIONAMENTO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_FUNCIONAMENTO))}{ServerValidation =(CheckNotEmpty(ARM_FUNCIONAMENTO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>FUNCIONAMENTO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox14</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_ACABAMENTO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_ACABAMENTO))}{ServerValidation =(CheckNotEmpty(ARM_ACABAMENTO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>ACABAMENTO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox15</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_QUANTIDADE_CANO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_QUANTIDADE_CANO))}{ServerValidation =(CheckNotEmpty(ARM_QUANTIDADE_CANO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>QUANTIDADE_CANO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox16</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_COMPRIMENTO_CANO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_COMPRIMENTO_CANO))}{ServerValidation =(CheckNotEmpty(ARM_COMPRIMENTO_CANO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>COMPRIMENTO_CANO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox17</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_TP_DE_ALMA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_TP_DE_ALMA))}{ServerValidation =(CheckNotEmpty(ARM_TP_DE_ALMA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>TP_DE_ALMA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox18</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_QT_DE_RAIAS</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_QT_DE_RAIAS))}{ServerValidation =(CheckNotEmpty(ARM_QT_DE_RAIAS))}</td></tr>	
+      <tr><th>Mensagem: </th><td>QT_DE_RAIAS não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox19</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_SENTIDO_RAIAS</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_SENTIDO_RAIAS))}{ServerValidation =(CheckNotEmpty(ARM_SENTIDO_RAIAS))}</td></tr>	
+      <tr><th>Mensagem: </th><td>SENTIDO_RAIAS não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox20</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_PAIS_DE_FABRICACAO</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_PAIS_DE_FABRICACAO))}{ServerValidation =(CheckNotEmpty(ARM_PAIS_DE_FABRICACAO))}</td></tr>	
+      <tr><th>Mensagem: </th><td>PAIS_DE_FABRICACAO não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_ESPECIE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_MODELO_M</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_CALIBRE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_MARCA</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox21</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_CPF</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox22</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_CNPJ_CPF</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_STATUS</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(ARM_STATUS))}{ServerValidation =(CheckNotEmpty(ARM_STATUS))}</td></tr>	
+      <tr><th>Mensagem: </th><td>ARM_STATUS não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>ARM_DATA_DE_VENC_REGISTRO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>

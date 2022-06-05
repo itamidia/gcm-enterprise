@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TabPage1" xml:space="preserve">
+    <value>Dados Pessoais</value>
+  </data>
+  <data name="TabPage2" xml:space="preserve">
+    <value>Dados Funcionais</value>
+  </data>
+  <data name="TabPage3" xml:space="preserve">
+    <value>Outras Informações</value>
+  </data>
+  <data name="TabPage4" xml:space="preserve">
+    <value>Escolaridade</value>
+  </data>
+  <data name="TabPage5" xml:space="preserve">
+    <value>Cursos Extra</value>
+  </data>
+  <data name="TabPage6" xml:space="preserve">
+    <value>Procedimentos Disciplinares</value>
+  </data>
+  <data name="TabPage7" xml:space="preserve">
+    <value>Folgas/Férias</value>
+  </data>
+  <data name="TabPage9" xml:space="preserve">
+    <value>Avaliação Psicológica</value>
+  </data>
+  <data name="TabPage8" xml:space="preserve">
+    <value>Observações</value>
+  </data>
+  <data name="Form1" xml:space="preserve">
+    <value>Cadastro GCM</value>
+  </data>
+  <data name="Button12" xml:space="preserve">
+    <value>Folgas/Férias</value>
+  </data>
+  <data name="Button13" xml:space="preserve">
+    <value>Proc. Disc. Preliminar</value>
+  </data>
+  <data name="Button14" xml:space="preserve">
+    <value>Avaliação Psicológica</value>
+  </data>
+  <data name="Label7" xml:space="preserve">
+    <value>FOTO</value>
+  </data>
+  <data name="Label5" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Label6" xml:space="preserve">
+    <value>NOME</value>
+  </data>
+  <data name="Label9" xml:space="preserve">
+    <value>DATA_NASC</value>
+  </data>
+  <data name="Label10" xml:space="preserve">
+    <value>RG</value>
+  </data>
+  <data name="Label11" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="Label13" xml:space="preserve">
+    <value>VALIDADE_CNH</value>
+  </data>
+  <data name="Label14" xml:space="preserve">
+    <value>CATEGORIA CNH</value>
+  </data>
+  <data name="Label15" xml:space="preserve">
+    <value>LOGRADOURO</value>
+  </data>
+  <data name="Label16" xml:space="preserve">
+    <value>BAIRRO</value>
+  </data>
+  <data name="Label17" xml:space="preserve">
+    <value>CIDADE</value>
+  </data>
+  <data name="Label18" xml:space="preserve">
+    <value>CEP</value>
+  </data>
+  <data name="Label19" xml:space="preserve">
+    <value>PAI</value>
+  </data>
+  <data name="Label20" xml:space="preserve">
+    <value>MAE</value>
+  </data>
+  <data name="Label21" xml:space="preserve">
+    <value>TELEFONE</value>
+  </data>
+  <data name="Label22" xml:space="preserve">
+    <value>CELULAR</value>
+  </data>
+  <data name="Label24" xml:space="preserve">
+    <value>NACIONALIDADE</value>
+  </data>
+  <data name="Label25" xml:space="preserve">
+    <value>NATURALIDADE</value>
+  </data>
+  <data name="Label27" xml:space="preserve">
+    <value>FATOR_RH</value>
+  </data>
+  <data name="Label26" xml:space="preserve">
+    <value>TIPO_SANGUINEO</value>
+  </data>
+  <data name="Label23" xml:space="preserve">
+    <value>EMAIL</value>
+  </data>
+  <data name="Button1" xml:space="preserve">
+    <value>CEP</value>
+  </data>
+  <data name="Label38" xml:space="preserve">
+    <value>TIPO_LOGRADOURO</value>
+  </data>
+  <data name="Label39" xml:space="preserve">
+    <value>UF</value>
+  </data>
+  <data name="Label12" xml:space="preserve">
+    <value>CNH</value>
+  </data>
+  <data name="Label40" xml:space="preserve">
+    <value>TITULO_ELEITOR</value>
+  </data>
+  <data name="Label41" xml:space="preserve">
+    <value>CARTEIRA_TRABALHO</value>
+  </data>
+  <data name="Label42" xml:space="preserve">
+    <value>MATRICULA GCM</value>
+  </data>
+  <data name="ComboBox1" xml:space="preserve">
+    <value>Carregando...</value>
+  </data>
+  <data name="Label45" xml:space="preserve">
+    <value>STATUS</value>
+  </data>
+  <data name="Label46" xml:space="preserve">
+    <value>GUERRA</value>
+  </data>
+  <data name="TxtTipoLogradouro" xml:space="preserve">
+    <value>Carregando...</value>
+  </data>
+  <data name="Label50" xml:space="preserve">
+    <value>Nº</value>
+  </data>
+  <data name="Label33" xml:space="preserve">
+    <value>RE PREFEITURA</value>
+  </data>
+  <data name="Label29" xml:space="preserve">
+    <value>NUMERO_PORTE</value>
+  </data>
+  <data name="Label30" xml:space="preserve">
+    <value>VALIDADE_PORTE</value>
+  </data>
+  <data name="Label35" xml:space="preserve">
+    <value>DATA EXP IDENTIDADE FUNCIONAL</value>
+  </data>
+  <data name="Label31" xml:space="preserve">
+    <value>DATA_ADMISSAO</value>
+  </data>
+  <data name="Label32" xml:space="preserve">
+    <value>DATA_DEMISSAO</value>
+  </data>
+  <data name="Label8" xml:space="preserve">
+    <value>FUNCAO</value>
+  </data>
+  <data name="Label47" xml:space="preserve">
+    <value>DATA_EXP_PORTE</value>
+  </data>
+  <data name="Label48" xml:space="preserve">
+    <value>NUM_CONTROLE_CEDULA</value>
+  </data>
+  <data name="Label49" xml:space="preserve">
+    <value>COMPORTAMENTO</value>
+  </data>
+  <data name="GridColumn59" xml:space="preserve">
+    <value>CURSO</value>
+  </data>
+  <data name="GridColumn60" xml:space="preserve">
+    <value>INSTITUICAO</value>
+  </data>
+  <data name="GridColumn61" xml:space="preserve">
+    <value>MES/ANO INICIO</value>
+  </data>
+  <data name="GridColumn62" xml:space="preserve">
+    <value>MES/ANO CONCLUSAO</value>
+  </data>
+  <data name="GridColumn66" xml:space="preserve">
+    <value>CARGA_HORARIA</value>
+  </data>
+  <data name="GridColumn63" xml:space="preserve">
+    <value>NIVEL</value>
+  </data>
+  <data name="GridColumn64" xml:space="preserve">
+    <value>CIDADE</value>
+  </data>
+  <data name="GridColumn65" xml:space="preserve">
+    <value>UF</value>
+  </data>
+  <data name="GridColumn69" xml:space="preserve">
+    <value>CURSO</value>
+  </data>
+  <data name="GridColumn70" xml:space="preserve">
+    <value>INSTITUICAO</value>
+  </data>
+  <data name="GridColumn71" xml:space="preserve">
+    <value>MES/ANO INICIO</value>
+  </data>
+  <data name="GridColumn72" xml:space="preserve">
+    <value>MES/ANO CONCLUSAO</value>
+  </data>
+  <data name="GridColumn73" xml:space="preserve">
+    <value>CARGA_HORARIA</value>
+  </data>
+  <data name="GridColumn74" xml:space="preserve">
+    <value>CIDADE</value>
+  </data>
+  <data name="GridColumn75" xml:space="preserve">
+    <value>UF</value>
+  </data>
+  <data name="GridColumn41" xml:space="preserve">
+    <value>GCM</value>
+  </data>
+  <data name="GridColumn40" xml:space="preserve">
+    <value>RE_MATRICULA</value>
+  </data>
+  <data name="GridColumn42" xml:space="preserve">
+    <value>PARTE</value>
+  </data>
+  <data name="GridColumn43" xml:space="preserve">
+    <value>MOTIVO</value>
+  </data>
+  <data name="GridColumn44" xml:space="preserve">
+    <value>OS</value>
+  </data>
+  <data name="GridColumn45" xml:space="preserve">
+    <value>RECEBIMENTO</value>
+  </data>
+  <data name="GridColumn46" xml:space="preserve">
+    <value>PRAZO</value>
+  </data>
+  <data name="GridColumn47" xml:space="preserve">
+    <value>CONCLUSAO</value>
+  </data>
+  <data name="GridColumn48" xml:space="preserve">
+    <value>OBSERVACAO</value>
+  </data>
+  <data name="GridColumn51" xml:space="preserve">
+    <value>GCM</value>
+  </data>
+  <data name="GridColumn52" xml:space="preserve">
+    <value>DESCRICAO</value>
+  </data>
+  <data name="GridColumn53" xml:space="preserve">
+    <value>TIPO_FOLGA</value>
+  </data>
+  <data name="GridColumn54" xml:space="preserve">
+    <value>DATA_INICIO</value>
+  </data>
+  <data name="GridColumn55" xml:space="preserve">
+    <value>DATA_TERMINO</value>
+  </data>
+  <data name="GridColumn56" xml:space="preserve">
+    <value>RESUMO</value>
+  </data>
+  <data name="GridColumn78" xml:space="preserve">
+    <value>DATA DA AVALIAÇÃO</value>
+  </data>
+  <data name="GridColumn79" xml:space="preserve">
+    <value>PRÓXIMA AVALIAÇÃO</value>
+  </data>
+  <data name="GridColumn80" xml:space="preserve">
+    <value>APTIDÃO</value>
+  </data>
+  <data name="GridColumn81" xml:space="preserve">
+    <value>RESUMO</value>
+  </data>
+  <data name="TxtDisponivel" xml:space="preserve">
+    <value>Disponível</value>
+  </data>
+  <data name="TxtDisponibilizado" xml:space="preserve">
+    <value>Disponibilizado</value>
+  </data>
+  <data name="TxtFerias" xml:space="preserve">
+    <value>Férias</value>
+  </data>
+  <data name="TxtFolgas" xml:space="preserve">
+    <value>Folgas</value>
+  </data>
+  <data name="TxtSuspenso" xml:space="preserve">
+    <value>Suspenso</value>
+  </data>
+  <data name="TxtAfasMedico" xml:space="preserve">
+    <value>Afastamento Médico</value>
+  </data>
+  <data name="Afas_Nao_remunerado" xml:space="preserve">
+    <value>Afastamento não Remunerado</value>
+  </data>
+  <data name="TxtLic_Premio" xml:space="preserve">
+    <value>Licença Prêmio</value>
+  </data>
+  <data name="Txt_Suspenso" xml:space="preserve">
+    <value>Falecido</value>
+  </data>
+  <data name="TxtRestrito" xml:space="preserve">
+    <value>Restrito</value>
+  </data>
+  <data name="TxtExonerado" xml:space="preserve">
+    <value>Exonerado</value>
+  </data>
+  <data name="TxtExo_Pedido" xml:space="preserve">
+    <value>Exonerado a Pedido</value>
+  </data>
+  <data name="GComboBoxItem1" xml:space="preserve">
+    <value>APTO</value>
+  </data>
+  <data name="GComboBoxItem2" xml:space="preserve">
+    <value>INAPTO</value>
+  </data>
+</root>

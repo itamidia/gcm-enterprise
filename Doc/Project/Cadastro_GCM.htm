@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cadastro GCM</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Cadastro GCM</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_FUNCIONARIOS</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>gcm</td></tr>
+      <tr><th>Tabela Básica: </th><td>tb_gcm</td></tr>
+      <tr><th>Provider: </th><td>Cadastro_GCM</td></tr>
+      <tr><th>Index: </th><td>PK_TB_GCM</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>GMultiMedia1</td></tr>
+      <tr><th>Campo Relacionado: </th><td></td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_ID</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_NOME</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCM_NOME))}{ServerValidation =(CheckNotEmpty(GCM_NOME))}</td></tr>	
+      <tr><th>Mensagem: </th><td>NOME não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_DATA_NASC</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCM_DATA_NASC))}{ServerValidation =(CheckNotEmpty(GCM_DATA_NASC))}</td></tr>	
+      <tr><th>Mensagem: </th><td>DATA_NASC não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_RG</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCM_RG))}{ServerValidation =(CheckNotEmpty(GCM_RG))}</td></tr>	
+      <tr><th>Mensagem: </th><td>RG não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox28</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_RE_MATRICULA</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCM_RE_MATRICULA))}{ServerValidation =(CheckNotEmpty(GCM_RE_MATRICULA))}</td></tr>	
+      <tr><th>Mensagem: </th><td>RE_MATRICULA não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_STATUS</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCM_STATUS))}{ServerValidation =(CheckNotEmpty(GCM_STATUS))}</td></tr>	
+      <tr><th>Mensagem: </th><td>GCM_STATUS não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox30</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_CPF</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GCM_CPF))}{ServerValidation =(CheckNotEmpty(GCM_CPF))}</td></tr>	
+      <tr><th>Mensagem: </th><td>CPF não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox31</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_GUERRA</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox37</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_CNH</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker13</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_VALIDADE_CNH</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox38</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_CATEG_CNH</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox39</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_TITULO_ELEITOR</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox40</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_CARTEIRA_TRABALHO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox46</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_PAI</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox47</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_MAE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox48</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_TELEFONE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox49</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_CELULAR</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox50</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_NACIONALIDADE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox51</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_NATURALIDADE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox52</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_FATOR_RH</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox53</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_TIPO_SANGUINEO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox54</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_EMAIL</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtTipoLogradouro</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_TIPO_LOGRADOURO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox56</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_NUMERO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtCidade</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_CIDADE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtBairro</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_BAIRRO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtLogradouro</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_ENDERECO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtCEP</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_CEP</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>TxtUF</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_UF</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox32</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_RG_FUNCIONAL_PMJ</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox34</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_NUMERO_PORTE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker8</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_VALIDADE_PORTE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker9</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_DATA_EXP_ID_FUNCIONAL</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker10</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_DATA_EXP_PORTE</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker11</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_DATA_ADMISSAO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker12</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_DATA_DEMISSAO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox35</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_FUNCAO</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox36</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_RG_FUNCIONAL</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox55</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GCM_ELOGIOS</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>
