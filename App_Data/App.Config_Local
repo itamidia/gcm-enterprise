@@ -4,7 +4,7 @@
 	<Databases>
 		<Database Name="gcm">
 			<Setting key="Type" value="MySql"/>
-			<Setting key="StringConnection" value="Server=localhost;Database=gcm;Uid=root;Pwd=cnme122518"/>
+			<Setting key="StringConnection" value="Server=endereçodobanco;Database=seubanco;Uid=seuusuario;Pwd=SuaSenha@"/>
 			<Setting key="Server" value="MYSQL"/>
 			<Setting key="BoolFormat" value="1;0"/>
 			<Setting key="DateFormat" value="yyyy/MM/dd HH:mm:ss"/>
@@ -27,7 +27,7 @@
 		</Database>
 		<Database Name="banco_cep">
 			<Setting key="Type" value="MySql"/>
-			<Setting key="StringConnection" value="Server=localhost;Database=banco_cep;Uid=root;Pwd=cnme122518"/>
+			<Setting key="StringConnection" value="Server=endereçodobanco;Database=seubanco;Uid=seuusuario;Pwd=SuaSenha@"/>
 			<Setting key="Server" value="MYSQL"/>
 			<Setting key="BoolFormat" value="1;0"/>
 			<Setting key="DateFormat" value="yyyy/MM/dd HH:mm:ss"/>
